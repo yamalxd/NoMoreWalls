@@ -22,7 +22,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_1|3.4MB/s
+- name: 日本3|@ripaojiedian
   network: tcp
   password: d6788cf74e6844c45538204efd24b00f
   port: 24370
@@ -30,29 +30,35 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇯🇵JP_2|3.5MB/s
-  network: ws
-  port: '8880'
-  server: download.yunzhongzhuan.com
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|5.5MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: qkSw1mYeebLzLGFAxnSu0CuNaSQXdhR-doksZoqEniA
+    short-id: '!!str f75fbd5b'
+  server: jp4.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  tls: true
   type: vless
   udp: true
-  uuid: d593c88a-496b-4889-968c-6af644021467
-  ws-opts:
-    headers:
-      Host: white-disk-79ed.476.workers.dev
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.113 Safari/537.36
-    path: /pyip=ProxyIP.US.CMLiussss.net
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇯🇵JP_3|4.4MB/s
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_2|3.8MB/s
   network: tcp
-  port: '1552'
-  server: 103.201.131.66
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+  port: '443'
+  reality-opts:
+    public-key: HtrHyKJvjeh9xNVlNXidqFra8n_DhlL8EGu4ERst8QI
+    short-id: '!!str 912d2b581f59fb'
+  server: jp3.miyazono-kaori.com
+  servername: www.bandainamcoent.co.jp
+  tls: true
+  type: vless
   udp: true
-  uuid: d2642f6b-04b8-4b84-ab3c-4143faf1c90c
+  uuid: 30bc91bf-229a-4c1e-a711-392eb86d0f76
   xudp: true
