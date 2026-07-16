@@ -1,4 +1,76 @@
 proxies:
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -15,6 +87,20 @@ proxies:
   server: 181.214.99.162
   skip-cert-verify: true
   sni: api.kermanshahi.org
+  tls: false
+  type: hysteria2
+- name: 🪭68@oneclickvpnkeys
+  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
+  port: 8449
+  server: jongjmi.odnako.site
+  sni: jongjmi.odnako.site
+  tls: false
+  type: hysteria2
+- name: '🇩🇪112515 | ⚡️Telegram = t.me/S... #1'
+  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
+  port: 8449
+  server: soskeynets.odnako.site
+  sni: jongjmi.odnako.site
   tls: false
   type: hysteria2
 - name: '@V2RayyNGvpn کانال ما🇩🇪'
@@ -37,12 +123,14 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- name: 🪭46@oneclickvpnkeys
+- name: 🇩🇪Telegram=V2RayyNGvpn
   obfs: salamander
-  obfs-password: dwv3ped4yi46iw8r
-  password: TELEGRAM-ID-soalvajavaab
-  port: 2053
-  server: pristytools.com.pristytools.com
+  obfs-password: t-me-V2RayyNGvpn
+  password: V2RayyNGvpn-
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
   tls: false
   type: hysteria2
 - name: '@V2RayyNGvpn کانال ما🇩🇪 #1'
@@ -65,47 +153,25 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
-- auth: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  name: 🇩🇪DE_1|2.1MB/s
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: jongjmi.odnako.site
-  skip-cert-verify: true
-  sni: jongjmi.odnako.site
-  type: hysteria2
 - client-fingerprint: chrome
-  name: 🇩🇪DE_2|2.2MB/s
+  name: 🇩🇪DE_1|2.8MB/s
   network: ws
   port: 2096
-  server: 172.67.71.250
-  servername: vp20.cc.cd
+  server: 104.26.5.224
+  servername: vp23.cc.cd
   tls: true
   type: vless
   udp: true
   uuid: 7b102311-43fd-4e8f-877e-8090623c101d
   ws-opts:
     headers:
-      Host: vp20.cc.cd
+      Host: vp23.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.7MB/s
+  name: 🇩🇪DE_2|1.8MB/s
   network: ws
-  port: 443
-  server: 172.67.73.19
-  servername: vp38.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp38.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 🇩🇪DE_4|1.7MB/s
-  network: ws
-  port: 2053
-  server: 104.26.14.149
+  port: 8443
+  server: 104.26.8.249
   servername: vp41.cc.cd
   tls: true
   type: vless
@@ -116,16 +182,19 @@ proxies:
       Host: vp41.cc.cd
     path: /
 - client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.3MB/s
-  network: ws
+  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
+  name: 🇩🇪DE_3|2.1MB/s
+  network: xhttp
   port: 8443
-  server: 104.26.1.235
-  servername: vp43.cc.cd
+  server: love.ns.cloudflare.com
+  servername: vamosargentina.dpdns.org
   tls: true
   type: vless
   udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp43.cc.cd
+  uuid: 88888888-8888-8888-8888-888888888888
+  xhttp-opts:
+    host: vamosargentina.dpdns.org
+    mode: auto
     path: /
+    x-padding-bytes: 100-1000
+  xudp: true
