@@ -1,76 +1,4 @@
 proxies:
-- encryption: none
-  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
-  network: tcp
-  port: 10443
-  server: 136.244.94.171
-  type: vless
-  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
-- encryption: none
-  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
-  network: tcp
-  port: 443
-  server: 136.244.94.171
-  type: vless
-  uuid: 52516534-4986-4959-b30b-a89463eed9af
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: GrpcFuckRKN
-  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
-  network: grpc
-  port: 443
-  reality-opts:
-    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
-    short-id: '!!str deadbeef'
-  security: reality
-  server: 194.58.41.65-uhe66vr6.nike77prime.ru
-  servername: www.microsoft.com
-  tls: true
-  type: vless
-  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
-- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
-  network: ws
-  port: 8880
-  server: 45.80.111.30
-  type: vless
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  ws-opts:
-    headers:
-      Host: vms.lifetime52.workers.dev
-    path: /
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
-    short-id: '!!str a1b2c3d4e5f6'
-  security: reality
-  server: 84.21.189.197
-  servername: queuev4.vk.com
-  tls: true
-  type: vless
-  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: DE
   password: a084933d-0b41-4571-ae0c-7163b8c71ed1
   port: 2056
@@ -89,20 +17,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- name: 🪭68@oneclickvpnkeys
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: jongjmi.odnako.site
-  sni: jongjmi.odnako.site
-  tls: false
-  type: hysteria2
-- name: '🇩🇪112515 | ⚡️Telegram = t.me/S... #1'
-  password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr
-  port: 8449
-  server: soskeynets.odnako.site
-  sni: jongjmi.odnako.site
-  tls: false
-  type: hysteria2
 - name: '@V2RayyNGvpn کانال ما🇩🇪'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
@@ -113,7 +27,27 @@ proxies:
   sni: www.amd.com
   tls: false
   type: hysteria2
+- name: '🇩🇪@V2rayng_Fast #1'
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: NZC2w2V2NQ
+  port: 40460
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
 - name: 🇩🇪Telegram=V2RayyNGvpn🇩🇪
+  obfs: salamander
+  obfs-password: t-me-V2RayyNGvpn
+  password: Ov5kSglMCd
+  port: 31999
+  server: 91.107.152.188
+  skip-cert-verify: true
+  sni: www.amd.com
+  tls: false
+  type: hysteria2
+- name: '🇩🇪Telegram=V2RayyNGvpn🇩🇪 #1'
   obfs: salamander
   obfs-password: t-me-V2RayyNGvpn
   password: RKJDOKrcIZ
@@ -154,47 +88,69 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.8MB/s
-  network: ws
-  port: 2096
-  server: 104.26.5.224
-  servername: vp23.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp23.cc.cd
-    path: /
-- client-fingerprint: chrome
-  name: 🇩🇪DE_2|1.8MB/s
-  network: ws
-  port: 8443
-  server: 104.26.8.249
-  servername: vp41.cc.cd
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp41.cc.cd
-    path: /
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.BBBQ6KZyjiYmpp2ErhKd0OwCBOm4J6_McyVQdB5yhBI
-  name: 🇩🇪DE_3|2.1MB/s
+  encryption: none
+  name: 🇩🇪DE_1|2.6MB/s
   network: xhttp
-  port: 8443
-  server: love.ns.cloudflare.com
-  servername: vamosargentina.dpdns.org
+  port: '2056'
+  reality-opts:
+    public-key: qXZfqpQScWQea7Kpr69if9iHhiA7IMLwUgZflIvuWh8
+    short-id: '!!str 4eee3ae71639f189'
+  server: c.bazardam.shop
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
+  uuid: 3f646f4d-b96e-4ba4-b562-0fd4854391a8
   xhttp-opts:
-    host: vamosargentina.dpdns.org
+    host: hostname
     mode: auto
-    path: /
+    path: /path
     x-padding-bytes: 100-1000
   xudp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_2|2.5MB/s
+  network: ws
+  port: 443
+  server: 104.26.1.53
+  servername: vp26.cc.cd
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
+  ws-opts:
+    headers:
+      Host: vp26.cc.cd
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: '!!str f0eb800bd980b00b'
+  server: sof.edgeptr.org
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 7f58bef5-859c-4fe2-840b-9183b1c8320d
+  xudp: true
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_4|5.0MB/s
+  password: amazonskr05
+  port: '443'
+  server: 63.183.207.82
+  type: ss
+  udp: true
+- client-fingerprint: chrome
+  name: 🇩🇪DE_5|2.8MB/s
+  network: tcp
+  password: NQ26071394
+  port: '443'
+  server: quiet-condor.rooster465.autos
+  skip-cert-verify: false
+  sni: quiet-condor.rooster465.autos
+  type: trojan
+  udp: true
