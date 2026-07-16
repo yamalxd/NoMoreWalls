@@ -10,128 +10,73 @@ proxies:
 - name: 美国|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.77.5
+  port: 49277
+  server: 18.167.68.98
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: b490740312aedb5f9f6b84c7aebd08c0
-  port: 17005
-  server: 18.163.123.154
+  port: 49277
+  server: 16.163.103.15
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 35966
-  server: 95.40.32.2
+  port: 44265
+  server: 95.40.42.248
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - alpn:
+  - h3
+  - h2
   - http/1.1
   client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_1|2.5MB/s
+  name: 🇺🇸US_1|1.8MB/s
   network: ws
   port: '443'
-  server: f35-ansooyee.up.railway.app
-  servername: f35-ansooyee.up.railway.app
+  server: marzban-node-production-7017.up.railway.app
+  servername: marzban-node-production-7017.up.railway.app
   tls: true
   type: vless
   udp: true
-  uuid: 69209652-ebd8-6e2c-93c8-cbc7009824c9
+  uuid: e3b61686-574f-4c57-b016-0e6d060f0b4f
   ws-opts:
     headers:
-      Host: f35-ansooyee.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/55.0.2883.87 Safari/537.36
-    path: /ws/69209652-ebd8-6e2c-93c8-cbc7009824c9
+      Host: marzban-node-production-7017.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+    path: /vless
   xudp: true
 - alpn:
+  - h2
   - http/1.1
+  - h3
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_2|2.5MB/s
+  name: 🇺🇸US_2|2.2MB/s
   network: ws
   port: '443'
-  server: soskeynets-production-b766.up.railway.app
-  servername: test-production-b766.up.railway.app
+  server: 198.202.211.1
+  servername: sinavm3.soft10.ir
   tls: true
   type: vless
   udp: true
-  uuid: eb87009d-ce35-731c-853e-a72a8fda4f91
+  uuid: 963c91fc-1ce7-4fc7-806f-0a2e7b03bfee
   ws-opts:
     headers:
-      Host: test-production-b766.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/57.0.2987.133 Safari/537.36
-    path: /ws/eb87009d-ce35-731c-853e-a72a8fda4f91
+      Host: sinavm3.soft10.ir
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_3|2.6MB/s
-  network: ws
-  port: '443'
-  server: xhttp-production-315c.up.railway.app
-  servername: xhttp-production-315c.up.railway.app
-  tls: true
-  type: vless
-  udp: true
-  uuid: 5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  ws-opts:
-    headers:
-      Host: xhttp-production-315c.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /ws/5285a0ee-fb1b-01c6-7d3d-452fdbe0d09a
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_4|2.6MB/s
-  network: tcp
-  port: '51963'
-  reality-opts:
-    public-key: 96R745HIUgKX33-bqiqB5F9uQFTacNEwP2W4ZYD7kVE
-    short-id: '!!str e2'
-  server: panel1.legendcr.ir
-  servername: www.yahoo.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ec99e107-8d2f-4767-a9ac-689424a55d3a
-  xudp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_5|4.2MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @WangCai2)f6e348d:70852
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  skip-cert-verify: true
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_6|3.7MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: (Telegram🇨🇳 @VPNine1)6db9d46:44797
-    mode: tls
-  port: '2377'
-  server: 88.210.36.109
-  type: ss
-  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
-  name: 🇺🇸US_7|3.6MB/s
+  name: 🇺🇸US_3|2.1MB/s
   network: tcp
   port: '40082'
   reality-opts:
@@ -144,25 +89,47 @@ proxies:
   udp: true
   uuid: 26bb3a99-4583-4744-bb8e-a5c823ad29e9
   xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: ios
-  encryption: none
-  name: 🇺🇸US_8|2.6MB/s
+- name: 🇺🇸US_4|2.7MB/s
   network: ws
-  port: '443'
-  server: x4g-production-4da6.up.railway.app
-  servername: x4g-production-4da6.up.railway.app
+  port: 443
+  server: 104.19.33.83
+  servername: ourfast.ccwu.cc
   tls: true
   type: vless
   udp: true
-  uuid: 8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
+  uuid: fb978279-0a28-4045-8258-e9ab97deaf2b
   ws-opts:
     headers:
-      Host: x4g-production-4da6.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /ws/8bf78d04-b9f6-5fb8-973d-ed1d29bf0d87
+      Host: ourfast.ccwu.cc
+    path: /
+- client-fingerprint: qq
+  flow: xtls-rprx-vision
+  name: 🇺🇸US_5|3.4MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc
+    short-id: '!!str 43dcff53849b81e6'
+  server: 89.105.219.132
+  servername: nl.quattro-tech.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897
+  xudp: true
+- name: 🇺🇸US_6|1.7MB/s
+  network: ws
+  port: '2095'
+  server: au273g4s.cf.3666888.xyz
+  type: vless
+  udp: true
+  uuid: 4a805850-a2c4-42b3-898a-798f0c19c609
+  ws-opts:
+    headers:
+      Host: 7cflukl1.cnm.qzz.io
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
+    path: /sub
   xudp: true
 - client-fingerprint: safari
   flow: xtls-rprx-vision
