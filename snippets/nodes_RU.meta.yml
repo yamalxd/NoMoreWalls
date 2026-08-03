@@ -1,9 +1,1 @@
-proxies:
-- auth: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  name: 🇷🇺RU_1|2.8MB/s
-  password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc
-  port: 443
-  server: usa1.spectrumproxy.shop
-  skip-cert-verify: true
-  sni: usa1.spectrumproxy.shop
-  type: hysteria2
+proxies: []

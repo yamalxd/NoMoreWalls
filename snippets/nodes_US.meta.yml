@@ -40,16 +40,16 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- auth: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  name: 🇺🇸US_1|3.7MB/s
-  password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9
-  port: 443
-  server: taga10.api3-max.ru
-  skip-cert-verify: true
-  sni: taga10.api3-max.ru
-  type: hysteria2
+- cipher: auto
+  name: 🇺🇸US_1|3.9MB/s
+  network: none
+  port: 12012
+  server: 154.36.135.84
+  tls: false
+  type: vless
+  uuid: d4ed01b4-bdaf-4909-d41e-5e6f8f6b5593
 - multiplexing: MULTIPLEXING_LOW
-  name: 🇺🇸US_2|2.7MB/s
+  name: 🇺🇸US_2|1.1MB/s
   password: dongtaiwang.com
   port: 34567
   server: 157.254.223.44
