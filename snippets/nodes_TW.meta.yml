@@ -1,4 +1,19 @@
 proxies:
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇹🇼TW_1|4.0MB/s
+  network: tcp
+  port: '39201'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v4.cdn.u5mltvhwkm.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
 - name: TW_speednode_0240
   port: 10000
   server: 60.249.101.14

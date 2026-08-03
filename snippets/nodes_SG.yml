@@ -15,7 +15,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡3|@ripaojiedian
+- name: 🇸🇬SG_2|3.5MB/s
   network: tcp
   password: BxceQaOe
   port: 9149
@@ -23,3 +23,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
+- client-fingerprint: chrome
+  name: 🇸🇬SG_3|3.5MB/s
+  password: BxceQaOe
+  port: '9149'
+  server: 16.162.22.218
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
+  type: trojan
+  udp: true

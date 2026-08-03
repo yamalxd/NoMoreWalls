@@ -24,6 +24,21 @@ proxies:
   sni: www.nintendogames.net
   type: trojan
 - client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇯🇵JP_1|2.2MB/s
+  network: tcp
+  port: '39409'
+  reality-opts:
+    public-key: JrWOojSFwFA93YjsiQkDydTItQzNAsXsHU24HuWGWjA
+    short-id: '!!str bc8e3658db7d1323'
+  server: v2.cdn.yye837u1f6xg.jjxdns.net
+  servername: cdnjs.cloudflare.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: bd37d63b-c75d-3e48-acbf-1d5954fe9cdc
+  xudp: true
+- client-fingerprint: chrome
   name: JP_speednode_0067
   network: ws
   port: 443
