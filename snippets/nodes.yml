@@ -168,14 +168,16 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 🇸🇬SG_2|3.5MB/s
+- name: HK_speednode_0009
   network: tcp
   password: BxceQaOe
   port: 9149
   server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  tls: true
   type: trojan
+  udp: true
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -210,28 +212,31 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- grpc-opts:
-    grpc-service-name: /43588/G43plZahWW
-  name: 🇳🇱NL_1|1.1MB/s
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: '443'
-  server: 2.26.96.251
-  skip-cert-verify: false
-  sni: titandarkness.mooo.com
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇸🇬SG_3|3.5MB/s
-  password: BxceQaOe
-  port: '9149'
-  server: 16.162.22.218
+- name: JP_speednode_0011
+  password: ND91608427
+  port: 443
+  server: upright-impala.rooster465.autos
   skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
+  sni: upright-impala.rooster465.autos
+  type: trojan
+  udp: true
+- name: 🇯🇵JP_2|5.6MB/s
+  password: ND91608427
+  port: 443
+  server: relaxing-bluebird.rooster465.autos
+  skip-cert-verify: true
+  sni: relaxing-bluebird.rooster465.autos
+  type: trojan
+- name: KR_speednode_0012
+  password: ND91608427
+  port: 443
+  server: definite-malamute.rooster465.autos
+  skip-cert-verify: true
+  sni: definite-malamute.rooster465.autos
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_2|5.5MB/s
+  name: 🇰🇷KR_4|3.8MB/s
   network: tcp
   password: ND91608427
   port: '443'
@@ -241,164 +246,63 @@ proxies:
   type: trojan
   udp: true
 - client-fingerprint: chrome
-  name: 🇰🇷KR_3|4.5MB/s
+  name: KR_speednode_0013
   network: tcp
   password: ND91608427
-  port: '443'
-  server: definite-malamute.rooster465.autos
-  skip-cert-verify: true
-  sni: definite-malamute.rooster465.autos
-  type: trojan
-  udp: true
-- client-fingerprint: chrome
-  name: 🇰🇷KR_4|4.8MB/s
-  network: tcp
-  password: ND91608427
-  port: '443'
+  port: 443
   server: moved-meerkat.rooster465.autos
   skip-cert-verify: true
   sni: moved-meerkat.rooster465.autos
   type: trojan
   udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0033
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0034
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0035
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  sni: 31.76.11.46.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /50779/NQmry9z8yR
-  name: GB_speednode_0036
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 31.76.11.46.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /28786/4U7gXXHftA
-  name: GB_speednode_0037
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 31.76.251.127.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: HK_speednode_0050
+- client-fingerprint: chrome
+  name: HK_speednode_0008
+  network: tcp
   password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
   type: trojan
   udp: true
-- name: HK_speednode_0051
+- client-fingerprint: chrome
+  name: HK_speednode_0007
   password: BxceQaOe
-  port: 29443
-  server: 18.166.249.45
+  port: 9149
+  server: 16.162.22.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
-- name: HK_speednode_0052
-  password: BxceQaOe
-  port: 29085
-  server: 18.163.90.221
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0078
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
+- client-fingerprint: chrome
+  name: JP_speednode_0010
+  network: tcp
+  password: ND91608427
   port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0079
-  network: grpc
-  password: 581e14a5fcc14107b9326cc54f047891
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0080
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  sni: 83.143.112.140.cdn-one.org
-  type: trojan
-  udp: true
-- grpc-opts:
-    grpc-service-name: /56227/rSnUrv2yXU
-  name: NL_speednode_0081
-  network: grpc
-  password: 32b2m2w7hsdd93z7
-  port: 443
-  server: 83.143.112.140.cdn-one.org
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- name: US_speednode_0243
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: Hkdcrtc-e.catcat321.com
+  server: definite-sturgeon.rooster465.autos
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: definite-sturgeon.rooster465.autos
   type: trojan
   udp: true
-- name: US_speednode_0262
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+- client-fingerprint: chrome
+  name: 🇯🇵JP_4|3.1MB/s
+  network: ws
+  password: MiTiVPN
+  port: '443'
+  server: 162.159.44.100
   skip-cert-verify: true
-  sni: hkdcrtc-e.catcat321.com
+  sni: Flll-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.S88R.iR
   type: trojan
   udp: true
-- name: US_speednode_0277
-  password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6
-  port: 20041
-  server: hkdcrtc-e.catcat321.com
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/fl---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+- name: NL_speednode_0017
+  password: 1BARPLkaLl
+  port: 32914
+  server: 45.130.22.70
   skip-cert-verify: true
-  sni: de.catxstar.com
+  sni: 45.130.22.70
   type: trojan
   udp: true
