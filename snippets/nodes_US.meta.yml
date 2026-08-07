@@ -1,5 +1,5 @@
 proxies:
-- name: 🤖45@oneclickvpnkeys
+- name: 🇺🇸美国
   password: 6fe3a600-4bcf-4040-81eb-ccd29231db2b
   port: 30001
   server: 155.117.19.221
@@ -37,6 +37,14 @@ proxies:
   skip-cert-verify: true
   tls: false
   type: hysteria2
+- name: 🇺🇸135853 | ⚡️Telegram = t.me/S...
+  password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g
+  port: 8443
+  server: 159.223.157.129
+  skip-cert-verify: true
+  sni: 159.223.157.129
+  tls: false
+  type: hysteria2
 - name: 美国|@ripaojiedian
   network: tcp
   password: d1960ba9f0f6353353994fa844cf817b
@@ -56,12 +64,12 @@ proxies:
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 53001
-  server: 16.162.3.64
+  port: 34039
+  server: 95.40.58.84
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|4.6MB/s
+- name: 🇺🇸US_1|4.2MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17963
   server: jjz.jjznodenode.top
@@ -73,7 +81,27 @@ proxies:
   - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_2|2.0MB/s
+  name: 🇺🇸US_2|3.1MB/s
+  network: ws
+  port: '443'
+  server: jgngnjg-production-f22e.up.railway.app
+  servername: jgngnjg-production-f22e.up.railway.app
+  tls: true
+  type: vless
+  udp: true
+  uuid: 55e956a8-4cbe-1548-c163-72631573e66f
+  ws-opts:
+    headers:
+      Host: jgngnjg-production-f22e.up.railway.app
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/49.0.2623.112 Safari/537.36
+    path: /ws/55e956a8-4cbe-1548-c163-72631573e66f
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇺🇸US_3|2.2MB/s
   network: ws
   port: '443'
   server: rvg-production-uyh4l.up.railway.app
@@ -85,111 +113,65 @@ proxies:
   ws-opts:
     headers:
       Host: rvg-production-uyh4l.up.railway.app
-      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; A37fw Build/LMY47V) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/62.0.3202.84 Mobile Safari/537.36
     path: /ws/d078f73a-41cc-7717-8d06-9d3c4ced5ec6
   xudp: true
-- name: US_speednode_0023
-  port: 9002
-  server: 138.199.35.199
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_4|3.1MB/s
-  password: amazonskr05
-  port: 443
-  server: 100.31.139.112
-  type: ss
-  udp: true
-- name: 🇺🇸US_5|4.3MB/s
+- name: 🇺🇸US_4|1.3MB/s
   port: 9002
   server: 138.199.35.198
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_6|4.5MB/s
+- name: 🇺🇸US_5|3.8MB/s
   password: None
   port: 9002
-  server: 138.199.35.216
+  server: 138.199.35.206
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_7|2.8MB/s
+- name: 🇺🇸US_6|1.0MB/s
   password: None
   port: 9002
-  server: 138.199.35.213
+  server: 138.199.35.209
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_8|4.2MB/s
-  password: None
+- name: 🇺🇸US_7|1.3MB/s
+  password: ''
   port: 9002
-  server: 138.199.35.204
+  server: 138.199.35.219
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_9|3.0MB/s
+  username: ''
+- name: 🇺🇸US_8|1.0MB/s
   port: 9002
   server: 138.199.35.212
   skip-cert-verify: true
   tls: true
   type: http
   udp: true
-- name: 🇺🇸US_10|4.5MB/s
-  password: None
+- name: 🇺🇸US_9|1.9MB/s
+  password: 'null'
   port: 9002
-  server: 138.199.35.202
+  server: 138.199.35.200
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_11|1.5MB/s
-  password: None
+  username: 'null'
+- name: 🇺🇸US_10|4.2MB/s
+  password: 'null'
   port: 9002
-  server: 138.199.35.205
+  server: 138.199.35.214
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_12|1.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_13|2.1MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_14|3.7MB/s
-  port: 9002
-  server: 138.199.35.211
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_15|4.2MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_16|3.1MB/s
+  username: 'null'
+- name: 🇺🇸US_11|1.1MB/s
   password: None
   port: 9002
   server: 138.199.35.210
@@ -197,70 +179,41 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_17|2.0MB/s
-  password: None
+- name: 🇺🇸US_12|3.4MB/s
+  password: ''
   port: 9002
-  server: 156.146.59.25
+  server: 138.199.35.203
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇺🇸US_18|3.1MB/s
+  username: ''
+- name: 🇺🇸US_13|2.4MB/s
   port: 9002
   server: 156.146.59.11
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_19|3.2MB/s
+- name: 🇺🇸US_14|3.2MB/s
+  port: 9002
+  server: 156.146.59.30
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_15|2.0MB/s
+  port: 9002
+  server: 156.146.59.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_16|2.7MB/s
   password: None
   port: 9002
-  server: 156.146.59.23
+  server: 156.146.59.16
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_20|2.7MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.20
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_21|3.1MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.12
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_22|1.4MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.8
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_23|1.1MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_24|1.6MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.38
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_25|3.1MB/s
+- name: 🇺🇸US_17|2.5MB/s
   password: None
   port: 9002
   server: 156.146.59.7
@@ -268,36 +221,25 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_26|1.0MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.21
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_27|2.4MB/s
-  password: ''
-  port: 9002
-  server: 156.146.59.31
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_28|3.2MB/s
-  password: None
-  port: 9002
-  server: 156.146.59.43
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_29|3.4MB/s
+- name: 🇺🇸US_18|3.4MB/s
+  password: test123
+  port: 1080
+  server: 104.168.249.36
+  type: socks5
+  username: test123
+- name: 🇺🇸US_19|2.3MB/s
   port: 9002
   server: 156.146.59.39
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇺🇸US_20|3.2MB/s
+  port: 9002
+  server: 156.146.59.33
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0021
@@ -316,6 +258,13 @@ proxies:
 - name: US_speednode_0022
   port: 9002
   server: 138.199.35.214
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: US_speednode_0023
+  port: 9002
+  server: 138.199.35.199
   skip-cert-verify: true
   tls: true
   type: http

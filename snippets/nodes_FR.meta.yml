@@ -40,7 +40,15 @@ proxies:
   sni: fr2.xiaoliyu.cyou
   tls: false
   type: hysteria2
-- name: 🇫🇷FR_1|4.6MB/s
+- name: 🇫🇷FR_1|3.7MB/s
+  password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
+  port: 17966
+  server: jjz.jjznodenode.top
+  skip-cert-verify: true
+  sni: jjz.jjznodenode.top
+  type: anytls
+  udp: true
+- name: 🇫🇷FR_2|3.2MB/s
   password: f93d0a97-c3a8-47af-b2be-ea4904c9918b
   port: 17965
   server: jjz.jjznodenode.top
@@ -48,10 +56,18 @@ proxies:
   sni: uk.jjznodenode.top
   type: anytls
   udp: true
-- name: 🇫🇷FR_2|2.2MB/s
-  port: 443
-  server: 103.82.101.43
-  skip-cert-verify: true
-  sni: 76d1d3ecadca44efa2339867d7dfc9a1-8e928736d0f8dbdc.apache-iv.com
-  tls: true
-  type: http
+- client-fingerprint: chrome
+  name: 🇫🇷FR_3|2.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.97
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; TRT-LX3 Build/HUAWEITRT-LX3) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /assignment

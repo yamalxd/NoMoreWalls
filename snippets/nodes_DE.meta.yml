@@ -13,7 +13,7 @@ proxies:
   sni: taga8.api3-max.ru
   tls: false
   type: hysteria2
-- name: '德国 #1'
+- name: 🇩🇪135884 | ⚡️Telegram = t.me/S...
   password: 71cada65-d23e-418c-88e4-a06188d14689
   port: 443
   server: de-two.quiet-rogue.site
@@ -79,52 +79,40 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_1|3.9MB/s
-  network: ws
-  port: '8443'
-  server: 172.66.146.2
-  servername: ftp.skylinknet.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2d116b12-4db5-44de-81d7-01b2f9e0c312
-  ws-opts:
-    headers:
-      Host: ftp.skylinknet.ir
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  grpc-opts:
-    grpc-service-name: grpc
-  name: 🇩🇪DE_2|1.3MB/s
-  network: grpc
-  port: '443'
-  reality-opts:
-    public-key: vxhkDXfYpz1OLqZ-_9QVoQr3_UJLtJFheb5bD5YH7z8
-    short-id: '!!str 3303c7a5'
-  server: 194.93.0.28
-  servername: media2.tcpdoor.net
-  tls: true
-  type: vless
-  udp: true
-  uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e
-  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_3|2.1MB/s
+  name: 🇩🇪DE_1|3.7MB/s
   password: vgi6UU38zMyqTARPkGLwZb
   port: '5228'
   server: creativeboxde2.zanity.net
   type: ss
   udp: true
+- name: 🇩🇪DE_2|1.1MB/s
+  password: None
+  port: 11111
+  server: 103.237.102.191
+  type: http
+  username: null
+- client-fingerprint: qq
+  encryption: none
+  grpc-opts:
+    grpc-service-name: 5post.gate.v1
+  name: 🇩🇪DE_3|2.3MB/s
+  network: grpc
+  port: '443'
+  reality-opts:
+    public-key: V6FabatADtcX7aO9KMjGCadJC4LuQ_5nRViab-z-nFQ
+    short-id: '!!str abcd'
+  server: 95.163.232.183
+  servername: 5post-gate.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: a8f0ef2b-a1c5-43f6-895d-8033e77f9bec
+  xudp: true
 - cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_4|4.4MB/s
+  name: 🇩🇪DE_4|4.3MB/s
   password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=
   port: '59924'
-  server: 130.61.236.175
+  server: 130.61.102.202
   type: ss
   udp: true
