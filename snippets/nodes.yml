@@ -89,149 +89,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 88888888-8888-8888-8888-888888888888
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇭🇰 HK 04 TG: @nodpai'
-  port: 6001
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇭🇰 HK 07 TG: @nodpai'
-  port: 51556
-  server: 103.181.164.145
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇹🇼 TW 02 TG: @nodpai'
-  network: ws
-  port: 33412
-  server: ct3.ainivp.com
-  tls: true
-  type: vmess
-  uuid: 9204afcd-026e-781f-1abc-c03efabd1344
-  ws-opts:
-    headers:
-      Host: ct3.ainivp.com
-    path: /ray
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇯🇵 JP 04 TG: @nodpai'
-  port: 6003
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 0
-  cipher: auto
-  name: 'A - 🇸🇬 SG 06 TG: @nodpai'
-  port: 6004
-  server: gtm-sg-cc54q7d1q01.365cloud0285.com
-  type: vmess
-  uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d
-- alterId: 2
-  cipher: auto
-  name: 🇸🇬SG_1|6.2MB/s
-  network: tcp
-  port: 30845
-  server: v45.hdacd.com
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  xudp: true
-- alterId: 0
-  cipher: auto
-  name: 'B - 🇺🇸 US 18 TG: @nodpai'
-  port: 180
-  server: 82.198.246.37
-  type: vmess
-  uuid: d13fc2f5-3e05-4795-81eb-44143a09e552
-- client-fingerprint: chrome
-  name: 'B - 🇺🇸 US 24 TG: @nodpai'
-  network: ws
-  password: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
-  port: 443
-  server: blackshadow.dpdns.org
-  sni: support.zoom.us.blackshadow.dpdns.org
-  tls: true
-  type: trojan
-  ws-opts:
-    headers:
-      Host: support.zoom.us.blackshadow.dpdns.org
-    path: /195.123.218.174-443
-- name: 'B - 🇺🇸 US 32 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45553
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: ch.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 33 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 41943
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: az.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 34 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 46424
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: de.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 35 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 48697
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: gh.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 36 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 47909
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: is.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 37 TG: @nodpai'
-  password: 4f4d1167-ef14-4304-9bce-0740472503ef
-  port: 45619
-  server: 90081bb25c.node.tro.cac.cab
-  skip-cert-verify: true
-  sni: fr.01.naiun.bilibili.com
-  tls: true
-  type: trojan
-- name: 'B - 🇺🇸 US 42 TG: @nodpai'
-  network: ws
-  password: 433e785b-2077-47f7-a43d-985f63dd18d1
-  port: 18000
-  server: 121.154.96.50
-  sni: vpn.rnmcnm.com
-  tls: true
-  type: trojan
-  ws-opts:
-    path: /trojan
-- alterId: 0
-  cipher: auto
-  name: 'C - 🇺🇸 US 46 TG: @nodpai'
-  network: ws
-  port: 52620
-  server: 38.60.176.80
-  type: vmess
-  uuid: d60c7a89-40d9-4f09-e8f8-591932ce79ef
-  ws-opts:
-    path: /8704a4ad
 - cipher: aes-256-cfb
   name: 'tg频道:@ripaojiedian #1'
   password: amazonskr05
@@ -250,41 +107,40 @@ proxies:
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 50887
-  server: 57.183.7.187
+  port: 11231
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: HK_speednode_0013
+- name: 香港4|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 27161
-  server: 16.162.3.11
+  port: 11035
+  server: 18.162.244.203
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-  udp: true
 - name: 香港5|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 29444
-  server: 18.162.120.21
+  port: 11035
+  server: 18.162.120.218
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
 - name: 日本|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 9408
-  server: 16.162.92.128
+  port: 4099
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
 - name: 日本2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 18617
-  server: 57.183.7.187
+  port: 44229
+  server: 16.162.192.182
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -292,15 +148,15 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 18286
-  server: 18.166.178.12
-  skip-cert-verify: false
+  server: 16.162.192.182
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 45747
-  server: 57.183.7.187
+  port: 32434
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
@@ -308,31 +164,39 @@ proxies:
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 45744
-  server: 18.166.178.12
-  skip-cert-verify: false
+  server: 16.162.192.182
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 41421
-  server: 95.40.53.193
+  port: 26704
+  server: 18.163.126.92
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
+  type: trojan
+- name: 美国|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 28051
+  server: 95.40.14.234
+  skip-cert-verify: true
+  sni: www.nintendogames.net
   type: trojan
 - name: 美国2|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
-  port: 34039
-  server: 18.163.100.58
+  port: 10418
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 美国3|@ripaojiedian
   network: tcp
   password: BxceQaOe
-  port: 39024
-  server: 18.166.226.204
+  port: 28051
+  server: 16.162.100.124
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
@@ -346,77 +210,115 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- cipher: chacha20-ietf-poly1305
+  name: 🇺🇦UA_1|1.9MB/s
+  password: 16b3793b-3335-4832-b1fd-877b2c5e15d6
+  port: 12014
+  server: xhkt5.ddns.net
+  type: ss
 - alpn:
   - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_1|2.4MB/s
+  name: 🇺🇸US_1|2.2MB/s
   network: ws
   password: MiTiVPN
-  port: '443'
-  server: 45.80.111.7
-  skip-cert-verify: false
-  sni: d-2-AA-ia-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+  port: 443
+  server: 104.17.148.22
+  skip-cert-verify: true
+  sni: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
+      Host: gb-ss-MiTiVPN--MiTiVPN--MiTiVPN---MiTiVPN--MiTiVPN--MiTiVPN.mitiVpN.lIfeStyLe
+    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/gb---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.4MB/s
+  name: 🇫🇷FR_3|1.4MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.174.44
+  server: 104.16.174.12
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|2.9MB/s
+  name: 🇫🇷FR_4|2.9MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.7.70
+  server: 104.21.46.3
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/63.0.3239.83 Mobile Safari/537.36
+      User-Agent: Mozilla/5.0 (Linux; Android 8.0.0; ANE-LX3 Build/HUAWEIANE-LX3)
+        AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
     path: /assignment
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_1|5.2MB/s
-  password: amazonskr05
-  port: 443
-  server: 51.102.205.132
-  type: ss
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.26.15.137
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_12|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 18.219.164.184
-  type: ss
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; de-DE) AppleWebKit/534.17
+        (KHTML, like Gecko) Chrome/10.0.649.0 Safari/534.17
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|1.8MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 8.6.112.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
   udp: true
-- alterId: 2
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|2.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.20.6.134
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.113 Safari/537.36
+    path: /assignment
+- alpn:
+  - ''
+  alterId: '0'
   cipher: auto
-  name: 🇺🇸US_22|2.5MB/s
-  port: 30829
-  server: v29.hdacd.com
+  name: 🇺🇸US_13|2.1MB/s
+  network: tcp
+  port: '53168'
+  server: lt.badns.help
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  uuid: 85ad21e1-c2cd-3407-aa90-815f3f3ea636
   xudp: true
 - name: HK_speednode_0012
   password: BxceQaOe
@@ -424,6 +326,14 @@ proxies:
   server: 16.162.3.11
   skip-cert-verify: true
   sni: t.me/ripaojiedian
+  type: trojan
+  udp: true
+- name: HK_speednode_0013
+  password: BxceQaOe
+  port: 27161
+  server: 16.162.3.11
+  skip-cert-verify: true
+  sni: t.me%2Fripaojiedian
   type: trojan
   udp: true
 - name: JP_speednode_0014
