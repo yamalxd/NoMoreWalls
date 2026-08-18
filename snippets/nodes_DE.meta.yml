@@ -106,37 +106,14 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
-- client-fingerprint: safari
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: vless-grpc-reality
-  name: 🇩🇪DE_1|1.6MB/s
-  network: grpc
-  port: 2096
-  reality-opts:
-    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-  server: ss.1010101.vip
-  servername: id.vk.com
-  tls: true
+- encryption: none
+  name: 🇩🇪DE_1|3.5MB/s
+  network: tcp
+  port: '667'
+  server: 2.59.223.72
   type: vless
   udp: true
-  uuid: 53b7fdec-4ccb-481a-8d98-83aa19509330
-- client-fingerprint: firefox
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|3.1MB/s
-  network: raw
-  port: 2027
-  reality-opts:
-    public-key: ISa-DZOI4LRRb9DHMFYm5oFqBXDjYzz0hVWUfWvzLmo
-    short-id: '!!str 8d3293f0066e129a'
-  server: 78.159.247.253
-  servername: storage.yandex.net
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 851ed0d8-a37b-452d-8ef2-5b6c2d28a060
+  uuid: 76fd8cd7-cff8-42fa-9b65-d10532536ae7
   xudp: true
 - name: DE_speednode_0001
   password: e4b72b531a2d10900519

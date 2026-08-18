@@ -22,11 +22,26 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.0MB/s
+  name: 🇫🇷FR_1|3.1MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.23.63
+  server: 188.114.97.7
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.102 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: render.com
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -34,21 +49,123 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/70.0.3538.102 Safari/537.36
+        like Gecko) Chrome/65.0.3325.162 Safari/537.36
     path: /assignment
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
+- client-fingerprint: chrome
+  encryption: none
   flow: xtls-rprx-vision
-  name: 🇫🇷FR_2|1.2MB/s
+  name: 🇫🇷FR_3|1.9MB/s
   network: tcp
-  port: '443'
-  server: hope.tutdesignstudio.site
-  servername: hope.tutdesignstudio.site
+  port: '2096'
+  reality-opts:
+    public-key: jqDgERbgQ5DVnJvw4p_j8XnM4GXUSXvPEn2t0TOtMms
+    short-id: '!!str c2b19b0e0e625d01'
+  server: djuc1.rapidmesh.ir
+  servername: yahoo.com
   tls: true
   type: vless
   udp: true
-  uuid: 493dea8b-0d8d-42bf-b96b-1efee4d5102a
+  uuid: 16569657-116c-46ed-8920-758ab8abaac4
+  xudp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.73.213
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/58.0.3029.110 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|2.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.12.149
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|3.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.159
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|1.9MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.46
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/60.0.3112.90 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_8|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.229
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/41.0.2272.101 Safari/537.36
+    path: /assignment
+- down: null
+  name: 🇫🇷FR_9|1.6MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
+  skip-cert-verify: true
+  sni: bing.com
+  type: hysteria2
+  up: null
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_10|1.6MB/s
+  network: tcp
+  port: '2096'
+  reality-opts:
+    public-key: jqDgERbgQ5DVnJvw4p_j8XnM4GXUSXvPEn2t0TOtMms
+    short-id: '!!str c2b19b0e0e625d01'
+  server: 57.131.138.129
+  servername: yahoo.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 16569657-116c-46ed-8920-758ab8abaac4
   xudp: true
 - name: FR_speednode_0002
   port: 23856

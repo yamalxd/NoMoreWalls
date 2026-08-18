@@ -15,16 +15,14 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 新加坡|@ripaojiedian
-  network: tcp
+- name: 🇸🇬 新加坡|@ripaojiedian
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
   server: 95.40.14.234
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 新加坡2|@ripaojiedian
-  network: tcp
+- name: 🇸🇬 新加坡2|@ripaojiedian
   password: 6ec301428255a78a1d826988d86cc87e
   port: 7375
   server: 16.162.100.124
@@ -39,31 +37,26 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 🇸🇬SG_1|2.5MB/s
-  password: 13f0acfa-38c1-4e82-a758-583aa31740df
-  port: 56277
-  server: yzany01.jdoanst2026.com
+- name: 新加坡2|@ripaojiedian
+  network: tcp
+  password: 6ec301428255a78a1d826988d86cc87e
+  port: 51396
+  server: 16.162.100.124
   skip-cert-verify: true
-  sni: xjp03.ascwt179.com
-  type: anytls
-- name: 🇸🇬SG_3|3.4MB/s
-  password: ESfDSCxpD
-  port: 64462
-  server: 154.219.254.66
-  type: http
-  username: n17sMRE7S
+  sni: www.nintendogames.net
+  type: trojan
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-service-name: update
-  name: 🇸🇬SG_4|1.8MB/s
-  network: grpc
-  port: '10039'
+  flow: xtls-rprx-vision
+  name: 🇸🇬SG_4|1.2MB/s
+  network: tcp
+  port: '443'
   reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: 13.212.89.97
-  servername: d1.awsstatic.com
+    public-key: ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk
+    short-id: '!!str 693f679d3294f967'
+  server: 163.128.99.246
+  servername: www.apple.com
   tls: true
   type: vless
   udp: true
-  uuid: 88DA9CA6-5E68-4687-A748-961B612DCED5
+  uuid: f3ed1945-dc1e-478a-b067-12b71badbea9
+  xudp: true
