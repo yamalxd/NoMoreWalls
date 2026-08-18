@@ -15,16 +15,10 @@ proxies:
   sni: 129-150-54-169.liao.kdns.fr
   tls: false
   type: hysteria2
-- name: 🇸🇬 新加坡|@ripaojiedian
+- name: 新加坡2|@ripaojiedian
+  network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 51396
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 7375
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
@@ -37,26 +31,12 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- name: 新加坡2|@ripaojiedian
-  network: tcp
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 16.162.100.124
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- client-fingerprint: chrome
-  flow: xtls-rprx-vision
-  name: 🇸🇬SG_4|1.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: ZMYQqRPgpITMElFSEMesSocBj7jvhhw3JGGzWEfyrBk
-    short-id: '!!str 693f679d3294f967'
-  server: 163.128.99.246
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: f3ed1945-dc1e-478a-b067-12b71badbea9
-  xudp: true
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_4|1.3MB/s
+  network: none
+  port: 47630
+  server: 43.228.126.187
+  tls: false
+  type: vmess
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb

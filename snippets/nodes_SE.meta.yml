@@ -23,21 +23,6 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  name: 🇸🇪SE_1|1.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: uag6mQ8Nj62hZYzJhhd4ZZ-0GOGA42khyC6XtRbEnAg
-    short-id: '!!str 77ca514a4493ae52'
-  server: se.morinsq.su
-  servername: se.morinsq.su
-  tls: true
-  type: vless
-  udp: true
-  uuid: 93fab704-cea7-4ca4-a9ac-5bb46aef263c
-  xudp: true
-- client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: SE_speednode_0116
   network: tcp

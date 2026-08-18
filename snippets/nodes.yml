@@ -104,101 +104,6 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰 香港3|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 14684
-  server: 16.163.156.207
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇭🇰 香港4|@ripaojiedian
-  password: BxceQaOe
-  port: 29444
-  server: 43.198.240.223
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇭🇰 香港5|@ripaojiedian
-  password: BxceQaOe
-  port: 14684
-  server: 43.198.109.134
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本|@ripaojiedian
-  password: BxceQaOe
-  port: 49811
-  server: 16.163.139.175
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇯🇵 日本2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 55564
-  server: 16.162.109.29
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇯🇵 日本3|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 3415
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 51396
-  server: 95.40.14.234
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇸🇬 新加坡2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 7375
-  server: 16.162.100.124
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 新加坡3|@ripaojiedian
-  network: tcp
-  password: BxceQaOe
-  port: 26704
-  server: 16.163.139.175
-  skip-cert-verify: true
-  sni: t.me%252Fripaojiedian
-  type: trojan
-- name: 🇺🇸 美国|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 18.163.126.92
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国2|@ripaojiedian
-  password: 6ec301428255a78a1d826988d86cc87e
-  port: 28051
-  server: 16.162.192.182
-  skip-cert-verify: true
-  sni: www.nintendogames.net
-  type: trojan
-- name: 🇺🇸 美国3|@ripaojiedian
-  password: BxceQaOe
-  port: 39024
-  server: 16.163.144.245
-  skip-cert-verify: true
-  sni: t.me%2Fripaojiedian
-  type: trojan
-- alterId: 2
-  cipher: auto
-  name: 香港|@ripaojiedian
-  network: tcp
-  port: '30807'
-  server: v10.hdacd.com
-  servername: ''
-  tls: false
-  type: vmess
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - name: 香港3|@ripaojiedian
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
@@ -207,7 +112,7 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 香港4|@ripaojiedian
+- name: 🇭🇰HK_9|4.2MB/s
   network: tcp
   password: BxceQaOe
   port: 7674
@@ -239,11 +144,12 @@ proxies:
   skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
-- name: 日本3|@ripaojiedian
+- name: 🇸🇬SG_6|3.6MB/s
   network: tcp
   password: 6ec301428255a78a1d826988d86cc87e
   port: 26704
   server: 18.163.114.228
+  skip-cert-verify: true
   sni: www.nintendogames.net
   type: trojan
 - name: 新加坡2|@ripaojiedian
@@ -253,6 +159,14 @@ proxies:
   server: 16.162.100.124
   skip-cert-verify: true
   sni: www.nintendogames.net
+  type: trojan
+- name: 新加坡3|@ripaojiedian
+  network: tcp
+  password: BxceQaOe
+  port: 26704
+  server: 16.163.139.175
+  skip-cert-verify: true
+  sni: t.me%252Fripaojiedian
   type: trojan
 - name: 美国|@ripaojiedian
   network: tcp
@@ -278,19 +192,63 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇭🇰HK_1|2.2MB/s
+- alterId: 2
+  cipher: auto
+  name: 香港|@ripaojiedian
+  network: tcp
+  port: '30807'
+  server: v10.hdacd.com
+  servername: ''
+  tls: false
+  type: vmess
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+- alpn:
+  - h2
+  grpc-opts:
+    grpc-service-name: ajv
+  name: 🇩🇪DE_2|1.0MB/s
+  network: grpc
+  password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
+  port: 443
+  server: ru-5b7331.atlanta-games.com
+  skip-cert-verify: true
+  sni: ru-5b7331.atlanta-games.com
+  type: trojan
+  udp: true
+- name: 🇫🇷FR_1|1.7MB/s
   password: PQ05174892
   port: 443
-  server: glad-roughy.rooster465.autos
+  server: lucky-marmot.rooster465.autos
   skip-cert-verify: true
   type: trojan
   udp: true
+- alterId: 0
+  cipher: auto
+  name: 🇭🇰HK_1|1.6MB/s
+  network: ws
+  port: 16632
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: true
+  tls: false
+  type: vmess
+  uuid: 97c638c6-86d5-4cf6-b70b-114c6809b637
+  ws-opts:
+    headers:
+      Host: 407a2bc6d452ff93e6d7b73078539d9e.mobgslb.tbcache.com
+    path: /
+- name: 🇯🇵JP_1|6.0MB/s
+  password: HC04361579
+  port: 443
+  server: accepted-starling.rooster465.autos
+  skip-cert-verify: true
+  sni: accepted-starling.rooster465.autos
+  type: trojan
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|3.1MB/s
+  name: 🇫🇷FR_2|2.4MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 188.114.97.7
+  server: 172.67.149.60
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -298,14 +256,14 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+        Gecko) Chrome/51.0.2704.106 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|1.1MB/s
+  name: 🇫🇷FR_3|2.6MB/s
   network: ws
   password: humanity
   port: '443'
-  server: render.com
+  server: 165.215.250.14
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -313,14 +271,68 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/65.0.3325.162 Safari/537.36
+        like Gecko) Chrome/67.0.3396.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_4|1.9MB/s
+  name: 🇰🇷KR_4|5.6MB/s
+  network: raw
+  password: HC04361579
+  port: '443'
+  server: powerful-troll.rooster465.autos
+  skip-cert-verify: false
+  sni: powerful-troll.rooster465.autos
+  type: trojan
+  udp: true
+- client-fingerprint: chrome
+  name: 🇫🇷FR_4|1.2MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.16.73.213
+  server: www.speedtest.org
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_5|1.4MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: www.ignitelimit.com
+  skip-cert-verify: false
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/46.0.2490.86 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_6|1.5MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 86.38.214.205
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_7|1.6MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.113
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -331,11 +343,41 @@ proxies:
         like Gecko) Chrome/58.0.3029.110 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_5|2.3MB/s
+  name: 🇫🇷FR_8|2.7MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.12.149
+  server: 104.17.177.143
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.1.1; CPH1723 Build/N6F26Q) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/61.0.3163.98 Mobile Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_9|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.18.152.210
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/57.0.2987.133 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_10|1.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.16.174.14
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -343,67 +385,82 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.167 Safari/537.36
+        like Gecko) Chrome/55.0.2883.87 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_6|3.4MB/s
+  name: 🇫🇷FR_11|1.6MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 104.18.152.159
+  server: 104.18.152.143
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/61.0.3163.100 Safari/537.36
+      User-Agent: Mozilla/5.0 (Unknown; Linux) AppleWebKit/538.1 (KHTML, like Gecko)
+        Chrome/v1.0.0 Safari/538.1
     path: /assignment
+- alterId: 0
+  cipher: auto
+  name: 🇸🇬SG_4|1.3MB/s
+  network: none
+  port: 47630
+  server: 43.228.126.187
+  tls: false
+  type: vmess
+  uuid: 9e5c6ebf-35f9-49a3-9f12-cba2b7cdbccb
 - client-fingerprint: chrome
-  name: 🇫🇷FR_7|1.9MB/s
-  network: ws
-  password: humanity
+  name: 🇫🇷FR_12|1.8MB/s
+  network: tcp
+  password: PQ05174892
+  port: 443
+  server: lucky-marmot.rooster465.autos
+  sni: lucky-marmot.rooster465.autos
+  type: trojan
+- client-fingerprint: chrome
+  name: 🇰🇷KR_3|4.0MB/s
+  network: tcp
+  password: HC04361579
   port: '443'
-  server: 104.16.174.46
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
+  server: 43.202.4.25
+  skip-cert-verify: true
+  sni: powerful-troll.rooster465.autos
   type: trojan
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/60.0.3112.90 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_8|1.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.229
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.101 Safari/537.36
-    path: /assignment
 - alpn:
   - h2
-  client-fingerprint: chrome
+  client-fingerprint: edge
   grpc-opts:
     grpc-service-name: ajv
-  name: ❓Other_1|3.0MB/s
+  name: 🇩🇪DE_4|1.4MB/s
   network: grpc
   password: HaZLUMP__fVySm7WzxFcnk7Nm8-f1CCK
   port: '443'
-  server: 176.108.242.191
+  server: ru-5b7331.atlanta-games.com
   skip-cert-verify: false
-  sni: ru-5b7331.atlanta-games.com
   type: trojan
   udp: true
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_14|1.3MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: join-telegram-channel-tirexnet.trex.kdns.fr
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36
+    path: /assignment
 - name: HK_speednode_0012
   password: BxceQaOe
   port: 27161
