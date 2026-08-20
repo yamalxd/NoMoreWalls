@@ -14,3 +14,19 @@ proxies:
   sni: 94-229-64-108.liao.kdns.fr
   tls: false
   type: hysteria2
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_1|1.7MB/s
+  network: tcp
+  port: '2096'
+  reality-opts:
+    public-key: pWPvxPIVtdzgaL0cdFZ73qn1FihjKDZ7TE55wg57Vl8
+    short-id: '!!str 9b43ece6010612b0'
+  server: 138.124.254.21
+  servername: it-one.quiet-rogue.site
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6fe06b02-74f7-431f-8ca4-c702fa3322bf
+  xudp: true
