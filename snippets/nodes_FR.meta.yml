@@ -15,11 +15,30 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|2.3MB/s
+  name: 🇫🇷FR_1|1.8MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 216.24.57.1
+  server: 104.18.152.225
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/46.0.2490.80 Safari/537.36
+    path: /assignment
+- alpn:
+  - h3
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_2|2.2MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 172.67.221.242
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -27,14 +46,14 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
+        Gecko) Chrome/49.0.2623.112 Safari/537.36
     path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|3.5MB/s
+  name: 🇫🇷FR_3|1.3MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 172.67.149.60
+  server: 104.18.152.108
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -44,32 +63,3 @@ proxies:
       User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
         Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.7MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.17.111.8
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/65.0.3325.181 Safari/537.36
-    path: /assignment
-- client-fingerprint: firefox
-  name: 🇫🇷FR_4|2.5MB/s
-  network: tcp
-  port: '2053'
-  reality-opts:
-    public-key: 6j7SZO4StX_8QkHX9sATJug5nQ4X4XoTj_6B7bClEw4
-    short-id: '!!str e52e7fd8585ac5c1'
-  server: 51.77.217.70
-  servername: www.apple.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ab00e12c-09f1-41c6-8d60-7c6a83f5ca9d
-  xudp: true

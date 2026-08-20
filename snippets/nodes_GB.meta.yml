@@ -15,18 +15,47 @@ proxies:
   tls: false
   type: hysteria2
 - client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇬🇧GB_1|1.7MB/s
-  network: tcp
-  port: '2096'
+  name: 🇬🇧GB_1|3.7MB/s
+  network: xhttp
+  port: 443
   reality-opts:
-    public-key: pWPvxPIVtdzgaL0cdFZ73qn1FihjKDZ7TE55wg57Vl8
-    short-id: '!!str 9b43ece6010612b0'
-  server: 138.124.254.21
-  servername: it-one.quiet-rogue.site
+    public-key: fkYk0Ow--0GYExpBFb2wZjooymT7uASOQLw9ESC3DF8
+    short-id: '!!str 62b6d6e64d461d78'
+  server: api.getsavesafe.space
+  servername: api.getsavesafe.space
   tls: true
   type: vless
   udp: true
-  uuid: 6fe06b02-74f7-431f-8ca4-c702fa3322bf
+  uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb
+  xhttp-opts:
+    host: api.getsavesafe.space
+    mode: auto
+    path: /
+- name: 🇬🇧GB_2|1.4MB/s
+  port: 9443
+  server: 37.120.233.34
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇬🇧GB_3|2.1MB/s
+  port: 443
+  server: 193.36.118.210
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: chrome
+  grpc-opts:
+    grpc-service-name: grpc
+  name: 🇬🇧GB_4|1.2MB/s
+  network: grpc
+  port: '2087'
+  reality-opts:
+    public-key: -ZTJcZ_UcqAB7LHgkUqhnlJsQs_oBafRgjsFtWZElmM
+    short-id: '!!str c226283c4de5b1ad'
+  server: 31.76.91.72
+  servername: ads.x5.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3
   xudp: true
