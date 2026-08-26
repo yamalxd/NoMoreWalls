@@ -71,16 +71,3 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- name: 🇭🇰HK_1|3.2MB/s
-  password: '!!str 123'
-  port: 3060
-  server: 43.100.43.112
-  type: socks5
-  username: '123'
-- name: 🇭🇰HK_2|4.9MB/s
-  password: admin
-  port: '8899'
-  server: 47.242.19.215
-  skip-cert-verify: true
-  type: socks5
-  username: admin
