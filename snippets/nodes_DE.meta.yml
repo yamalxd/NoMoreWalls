@@ -58,6 +58,18 @@ proxies:
   sni: germany1.h2corp.local
   tls: false
   type: hysteria2
+- alpn:
+  - h3
+  name: -🇩🇪 @VConfing
+  obfs: salamander
+  obfs-password: fuw2k1ddrouwxr3u
+  password: 1w61o8j0slf0q9yj
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
+  tls: false
+  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -73,6 +85,16 @@ proxies:
   port: 36896
   server: ptserv.accuratenetworkchecker.ir
   sni: lms22.gelzaro.ir
+  tls: false
+  type: hysteria2
+- name: 🪆93@oneclickvpnkeys
+  obfs: salamander
+  obfs-password: c1b4086fea89914496c7e10967a419216566
+  password: QCgqi_I4EkV8UR-OgQ_tG4EnVTEVvIyR2GgRBzrIn2s
+  port: 443
+  server: hy2-new.aspidnet.xyz
+  skip-cert-verify: true
+  sni: hy2-new.aspidnet.xyz
   tls: false
   type: hysteria2
 - alpn:
@@ -99,14 +121,16 @@ proxies:
   sni: de.jey.cc.cd
   tls: false
   type: hysteria2
-- name: 🇩🇪157437 | ⚡️Telegram = t.me/S...
+- alpn:
+  - h3
+  name: '-🇩🇪 @VConfing #1'
   obfs: salamander
-  obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0
-  password: cd74c0a406664a5bc0bac098220a2468
-  port: 443
-  server: 2.27.59.206
-  skip-cert-verify: true
-  sni: de1.sferavpn.pro
+  obfs-password: fuw2k1ddrouwxr3u
+  password: clz08qwil91241w7
+  port: 52021
+  server: giftcard.gateway-stream.com
+  skip-cert-verify: false
+  sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
 - name: 🇩🇪All⁷ | @BigSmoke_Config
@@ -116,83 +140,24 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- encryption: none
-  name: 🇩🇪DE_1|1.2MB/s
-  network: ws
-  port: '2087'
-  server: 188.220.67.198
-  type: vless
-  udp: true
-  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
-  ws-opts:
-    headers:
-      Host: ''
-      User-Agent: Mozilla/5.0 (Linux; Android 6.0.1; SM-G532M Build/MMB29T) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/55.0.2883.91 Mobile Safari/537.36
-    path: /8f2690e2d016
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.2MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
-    short-id: '!!str 09ef88a6'
-  server: app4.goonars.com
-  servername: app4.goonars.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
-  xudp: true
-- encryption: none
-  http-opts:
-    headers:
-      Host:
-      - amp-api-edge.apps.apple.com
-    path:
-    - /
-  name: 🇩🇪DE_3|4.4MB/s
-  network: http
-  port: '2091'
-  server: De.poco.mobileahmadreza.ir
-  type: vless
-  udp: true
-  uuid: 05f1007e-9ed8-4808-b081-65163a196959
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|4.4MB/s
-  network: ws
-  port: '8443'
-  server: motasel.vip3333.ir
-  servername: panel.vip3333.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 708431c5-8b69-4e0c-8def-cb34a6a1bdf3
-  ws-opts:
-    headers:
-      Host: panel.vip3333.ir
-      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.10
-        (KHTML, like Gecko) Chrome/8.0.552.237 Safari/534.10
-    path: /---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/---v2_mod_shop---/artical/pro
-  xudp: true
-- name: 🇩🇪DE_6|1004KB/s
+- client-fingerprint: random
+  name: 🇩🇪DE_1|2.6MB/s
+  network: xhttp
   port: 443
-  server: 149.36.50.157
-  skip-cert-verify: true
+  reality-opts:
+    public-key: mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg
+    short-id: '!!str f79448a30d'
+  server: se-xh01.tcp-reset-club.net
+  servername: s3.netavex.com
   tls: true
-  type: http
-- name: 🇩🇪DE_7|1.2MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_8|2.5MB/s
+  type: vless
+  udp: true
+  uuid: 0678ed07-980a-49c1-9066-05caec654967
+  xhttp-opts:
+    host: s3.netavex.com
+    mode: packet-up
+    path: /assets/v2/pkg
+- name: 🇩🇪DE_2|3.2MB/s
   password: None
   port: 9443
   server: 87.249.132.97
@@ -200,3 +165,121 @@ proxies:
   tls: true
   type: http
   username: null
+- name: 🇩🇪DE_3|1.9MB/s
+  port: 443
+  server: 149.36.50.1
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_4|2.6MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: u51rZT5vJj8nO80QBBHVW2-WA5OzzQ1eL6euvszWLQI
+    short-id: '!!str 09ef88a6'
+  server: app4.goonars.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2f600710-9f4e-4eab-8de1-89f60a878e55
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_5|1.1MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.181
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/40.0.2214.115 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_6|1.1MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.224
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/68.0.3440.106 Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- encryption: none
+  name: 🇩🇪DE_7|1.3MB/s
+  network: ws
+  port: '2087'
+  server: 188.220.67.245
+  type: vless
+  udp: true
+  uuid: 90da514d-8888-4a53-912e-ac2981c8c6ee
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J120M Build/LMY47X) AppleWebKit/537.36
+        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
+    path: /8f2690e2d016
+  xudp: true
+- alpn:
+  - http/1.1
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_8|3.3MB/s
+  network: ws
+  port: '443'
+  server: 8.6.112.0
+  servername: cf6.rumedia-cdn.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c
+  ws-opts:
+    headers:
+      Host: cf6.rumedia-cdn.com
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/34.0.1847.131 Safari/537.36
+    path: /cdn/v3/live
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_9|4.1MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: EtKRG8sxUJsdy-KwUOtYUNJnSn5VMx2sfKvvdpzg2X0
+    short-id: '!!str f0eb800bd980b00b'
+  server: nbg.edgeptr.org
+  servername: www.lovelive-anime.jp
+  tls: true
+  type: vless
+  udp: true
+  uuid: 6097ffb6-8022-4c86-b5d5-9c2aeab5f19d
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇩🇪DE_10|3.8MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: CF49-iS9dsHBwvqYFoDs_T3Me8TT0FpNW2kibGBkVXY
+    short-id: '!!str '
+  server: 212.233.121.169
+  servername: yandex.ru
+  tls: true
+  type: vless
+  udp: true
+  uuid: 2b4683b8-c5ac-45a0-afe1-1f3dbb62fcfa
+  xudp: true

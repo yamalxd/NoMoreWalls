@@ -48,33 +48,20 @@ proxies:
   server: 103.236.66.4
   type: ss
 - client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: update
-  name: 🇯🇵JP_1|4.4MB/s
-  network: grpc
-  port: 10032
-  reality-opts:
-    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
-    short-id: '!!str 686c0ef0'
-  server: jp2-r.link-t7.com
-  servername: s0.awsstatic.com
+  encryption: none
+  name: 🇯🇵JP_1|4.7MB/s
+  network: ws
+  port: '443'
+  server: wangcai.cf.877774.xyz
+  servername: ex3r.qzz.io
   tls: true
   type: vless
-  uuid: 31904E3E-F57B-41D1-BDB2-CB6D3A496232
-- alterId: 0
-  cipher: auto
-  name: 🇯🇵JP_2|3.6MB/s
-  network: ws
-  port: 16617
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: false
-  tls: false
-  type: vmess
   udp: true
-  uuid: ca68cf56-7c3c-4127-816e-7442de9176b7
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
   ws-opts:
     headers:
-      Host: 7ddc7ef7c7f198c5e7dbed9634157ca7.mobgslb.tbcache.com
-    path: /
+      Host: ex3r.qzz.io
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/67.0.3396.99 Safari/537.36
+    path: /sg-orcl
   xudp: true
