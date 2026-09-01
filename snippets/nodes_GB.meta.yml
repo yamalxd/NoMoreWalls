@@ -7,62 +7,10 @@ proxies:
   sni: hopp-legend-se.roxa.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  name: 🇬🇧 ConfigV2RayNG
-  obfs: salamander
-  obfs-password: fuw2k1ddrouwxr3u
-  password: 1m1xfvpaa5ek4omq
-  port: 52033
-  server: giftcard.gateway-stream.com
-  skip-cert-verify: false
-  sni: giftcard.gateway-stream.com
-  tls: false
-  type: hysteria2
-- name: 🇬🇧GB_1|4.1MB/s
-  port: 443
-  server: 37.120.233.18
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_2|3.0MB/s
-  port: 443
-  server: 185.235.0.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_3|2.4MB/s
+- name: 🇬🇧GB_1|2.5MB/s
   password: None
   port: 443
-  server: 193.36.118.210
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_4|3.2MB/s
-  port: 9443
-  server: 37.120.233.34
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇬🇧GB_5|3.3MB/s
-  password: None
-  port: 443
-  server: 185.235.0.2
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇬🇧GB_6|3.9MB/s
-  password: None
-  port: 3118
-  server: 154.61.56.215
-  type: http
-  username: null
-- name: 🇬🇧GB_7|1.6MB/s
-  password: None
-  port: 443
-  server: 185.235.0.66
+  server: 212.102.63.31
   skip-cert-verify: true
   tls: true
   type: http

@@ -24,7 +24,7 @@ proxies:
   type: hysteria2
 - alpn:
   - h3
-  name: 🇫🇷 ConfigV2RayNG
+  name: VCONFING
   obfs: salamander
   obfs-password: fuw2k1ddrouwxr3u
   password: 1m1xfvpaa5ek4omq
@@ -58,27 +58,20 @@ proxies:
   sni: giftcard.gateway-stream.com
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: render.com
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
+- name: 🇫🇷FR_1|4.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 51133
+  server: ip4.934618.xyz
+  skip-cert-verify: true
+  sni: ip4.934618.xyz
+  type: anytls
   udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
-    path: /assignment
 - client-fingerprint: chrome
-  name: 🇫🇷FR_2|1.2MB/s
+  name: 🇫🇷FR_2|1.1MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 188.114.97.7
+  server: 104.18.152.113
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
@@ -86,104 +79,24 @@ proxies:
   ws-opts:
     headers:
       User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/64.0.3282.186 Safari/537.36
+        like Gecko) Chrome/54.0.2840.99 Safari/537.36
     path: /assignment
 - alpn:
   - http/1.1
+  - h2
+  - h3
   client-fingerprint: chrome
-  name: 🇫🇷FR_3|1.2MB/s
+  name: 🇫🇷FR_3|3.2MB/s
   network: ws
   password: humanity
   port: '443'
-  server: www.ignitelimit.com
+  server: 198.41.223.96
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.102 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.67 Safari/537.36
     path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_4|1011KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.117 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_5|1010KB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.73
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko)
-        Chrome/70.0.3538.77 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_6|3.1MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 8.6.112.0
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/46.0.2490.80 Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_7|1.6MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.175
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Linux; Android 5.1.1; SM-J111M Build/LMY47V) AppleWebKit/537.36
-        (KHTML, like Gecko) Chrome/69.0.3497.100 Mobile Safari/537.36
-    path: /assignment
-- client-fingerprint: chrome
-  name: 🇫🇷FR_8|1.9MB/s
-  network: ws
-  password: humanity
-  port: '443'
-  server: 104.18.152.161
-  skip-cert-verify: false
-  sni: www.ignitelimit.com
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/70.0.3538.67 Safari/537.36
-    path: /assignment
-- name: 🇫🇷FR_9|1.9MB/s
-  port: 443
-  server: 103.82.101.44
-  skip-cert-verify: true
-  sni: f3a61d8406d537345747f99f8a281007-3f754ed5da1bba09.apache-iv.com
-  tls: true
-  type: http

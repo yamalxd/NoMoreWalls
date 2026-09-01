@@ -56,23 +56,14 @@ proxies:
   skip-cert-verify: true
   sni: t.me%252Fripaojiedian
   type: trojan
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇸🇬SG_1|4.8MB/s
-  network: ws
-  password: MiTiVPN
-  port: '443'
-  server: 104.18.32.47
+- auth: 19f72087-4591-4d72-930b-2697078ec2be
+  name: 🇸🇬SG_1|1.8MB/s
+  password: 19f72087-4591-4d72-930b-2697078ec2be
+  port: 1933
+  server: sg1.xiaoliyu.cyou
   skip-cert-verify: true
-  sni: fls-bbg--MiTiVPN---MiTiVPN-u.aPp-cLoud.IR
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/49.0.2623.87 Safari/537.36
-    path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/F-ls
+  sni: sg1.xiaoliyu.cyou
+  type: hysteria2
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
@@ -90,19 +81,19 @@ proxies:
   type: vless
   uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F
 - client-fingerprint: chrome
-  name: 🇸🇬SG_3|4.1MB/s
-  network: ws
-  port: '443'
-  server: 188.164.248.67
-  servername: vp21.cc.cd
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: update
+  name: 🇸🇬SG_3|5.0MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10040
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: sg5-r.link-t7.com
+  servername: d1.awsstatic.com
   tls: true
   type: vless
-  udp: true
-  uuid: 7b102311-43fd-4e8f-877e-8090623c101d
-  ws-opts:
-    headers:
-      Host: vp21.cc.cd
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /
-  xudp: true
+  uuid: C1CE3941-AC6F-4E98-9791-3B33ABBAF64F

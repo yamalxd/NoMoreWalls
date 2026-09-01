@@ -55,22 +55,7 @@ proxies:
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_1|4.6MB/s
-  network: ws
-  port: 16622
-  server: planb.mojcn.com.linuxlh.xin
-  skip-cert-verify: true
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 0f2a8df7-6119-496d-aef8-45ff837cf9ec
-  ws-opts:
-    headers:
-      Host: 236be42fc5d210917a1ecf890328e104.mobgslb.tbcache.com
-    path: /
-- alterId: 0
-  cipher: auto
-  name: 🇭🇰HK_2|2.5MB/s
+  name: 🇭🇰HK_1|1.5MB/s
   network: ws
   port: 16632
   server: m.cnmjin.net
@@ -86,38 +71,74 @@ proxies:
   xudp: true
 - alterId: 0
   cipher: auto
-  name: 🇭🇰HK_3|1.6MB/s
+  name: 🇭🇰HK_2|3.3MB/s
   network: ws
   port: 16632
-  server: planb.mojcn.com.linuxlh.xin
+  server: m.cnmjin.net
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 6605fd88-f41c-4c2a-90ee-6777ac0a32a2
+  uuid: d7e9f3c3-57c6-457e-b10f-df27907ef081
   ws-opts:
     headers:
-      Host: 052977cd32d141678a739f13963d57ac.mobgslb.tbcache.com
+      Host: 18a598fcab3909734096beb9fe7bc5b4.mobgslb.tbcache.com
     path: /
   xudp: true
-- alterId: '0'
-  cipher: auto
-  name: 🇭🇰HK_4|3.5MB/s
-  network: ws
-  port: 16632
-  server: m.cnmjin.net
-  type: vmess
-  uuid: 2498a366-dd3c-4f0b-832c-f2df12f7ee27
-  ws-opts:
-    headers:
-      Host: 791f9b5b1318471268a2dc21098376cc.mobgslb.tbcache.com
-    path: /
+- client-fingerprint: chrome
+  flow: xtls-rprx-vision
+  name: 🇭🇰HK_3|3.9MB/s
+  port: 15003
+  reality-opts:
+    public-key: R_3usai5pYqcc0aIzXPfaoe-VE_7JOe60fUNMicwfQ8
+    short-id: '!!str 4c517b9e'
+  server: nian.001.url111.kcloud02.top
+  servername: www.cloudflare.com
+  skip-cert-verify: true
+  tls: true
+  type: vless
+  udp: true
+  uuid: 399c4c9b-27e1-37f1-9dce-22ccc2727a86
 - client-fingerprint: chrome
   encryption: none
   grpc-opts:
     grpc-mode: gun
     grpc-service-name: movie
-  name: 🇭🇰HK_5|3.8MB/s
+  name: 🇭🇰HK_4|5.1MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10129
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk4-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_5|2.6MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10130
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk5-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_6|4.0MB/s
   network: grpc
   packet-encoding: xudp
   port: 10128
@@ -129,17 +150,36 @@ proxies:
   tls: true
   type: vless
   uuid: F2987FBA-B653-444D-8057-6B6474E448C6
-- name: 🇭🇰HK_6|4.4MB/s
-  password: 302cf77d-6fb7-4ac8-ae61-88e286340d59
-  port: 50222
-  server: hk03.qianmoip.win
-  skip-cert-verify: true
-  sni: taobao.com
-  type: trojan
-- name: 🇭🇰HK_7|2.8MB/s
-  password: 3QZglKmlgzc9zBCDD5W8tQ==
-  port: 443
-  server: 45.144.136.244
-  skip-cert-verify: true
-  sni: www.bing.com
-  type: anytls
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: movie
+  name: 🇭🇰HK_7|4.9MB/s
+  network: grpc
+  packet-encoding: xudp
+  port: 10136
+  reality-opts:
+    public-key: wOu-BMrXvk9KX23JZrlpUlF4SMjDcejm0vNECdhy5xE
+    short-id: '!!str 686c0ef0'
+  server: hk6-r.link-t7.com
+  servername: s0.awsstatic.com
+  tls: true
+  type: vless
+  uuid: F2987FBA-B653-444D-8057-6B6474E448C6
+- alterId: '0'
+  cipher: auto
+  name: 🇭🇰HK_8|4.0MB/s
+  network: ws
+  port: '16622'
+  server: planb.mojcn.com.linuxlh.xin
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6011f1c0-0fcc-4153-b848-972da6dec0f1
+  ws-opts:
+    headers:
+      Host: 6907bbf8a71b1370e29aa5fd2b77b347.mobgslb.tbcache.com
+    path: /
+  xudp: true
