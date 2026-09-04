@@ -69,50 +69,39 @@ proxies:
   skip-cert-verify: true
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: 🇺🇸US_1|1.3MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 13483
-  server: jpglobal-identity-federation-auth.younai-ytl.shop
-  skip-cert-verify: true
-  sni: kr02.lunartrace.io
-  type: anytls
+- cipher: aes-256-cfb
+  name: 🇺🇸US_1|1.2MB/s
+  password: 7eadc6dbe2ae
+  port: '65443'
+  server: 121.46.230.233
+  type: ss
   udp: true
-- name: 🇺🇸US_2|3.3MB/s
-  password: bd54ceae-9b5c-477d-b364-ffd8e5c734a7
-  port: 61134
-  server: svip.skycon808.com
-  skip-cert-verify: true
-  sni: us18.pulsarcore.site
-  type: anytls
-  udp: true
-- name: 🇺🇸US_3|3.1MB/s
-  network: ws
+- name: US_speednode_0140
+  password: None
   port: 443
-  server: 104.21.52.75
-  servername: 1-m9.pattaya-4.kdns.fr
-  skip-cert-verify: true
+  server: purposebydesig.club
+  skip-cert-verify: false
   tls: true
-  type: vless
+  type: http
   udp: true
-  uuid: 2240d8f8-898f-4988-8c08-ac724aa06ddb
+  username: null
+- alterId: '0'
+  cipher: auto
+  name: 🇺🇸US_3|3.0MB/s
+  network: ws
+  port: '16648'
+  server: planb.mojcn.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 24e37e6e-7e01-4f68-afea-28fb14a47aef
   ws-opts:
     headers:
-      Host: 1-m9.pattaya-4.kdns.fr
-    path: /BzuntJ8qZN0TRKbC8TveMxJ0
-- client-fingerprint: firefox
-  name: 🇺🇸US_4|3.8MB/s
-  network: tcp
-  port: 47642
-  reality-opts:
-    public-key: 9mg1QdPctekP9woKygHzBCxb8Hw2QTICXROQiiJB6Ag
-    short-id: '!!str 76ed3287'
-  server: 38.246.229.58
-  servername: sega.com
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  uuid: c538c9dd-2e3f-488f-a8ca-ac5b7c0773f3
-- name: 🇺🇸US_5|4.2MB/s
+      Host: 08071ec6f38bfb263ee89b1bb0c3ca1b.mobgslb.tbcache.com
+    path: /
+  xudp: true
+- name: 🇺🇸US_4|1.9MB/s
   password: None
   port: 443
   server: tzoa.fun
@@ -120,117 +109,36 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_6|1.5MB/s
-  port: 9002
-  server: 138.199.35.214
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_7|3.3MB/s
+- name: 🇺🇸US_5|2.5MB/s
   password: None
-  port: 9002
-  server: 138.199.35.195
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_8|3.4MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.197
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_9|4.4MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.209
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_10|4.2MB/s
-  port: 9002
-  server: 138.199.35.213
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_11|4.3MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.202
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- name: 🇺🇸US_12|3.8MB/s
-  password: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
   port: 443
-  server: 8e146d42-tk59c0-tldaam-1j0a4.los.gotochinatown.net
-  sni: 8e146d42-tk59c0-tldaam-1j0a4.los.gotochinatown.net
-  tls: true
-  type: http
-  username: 4eedcde6-d16a-11ef-973a-f23c913c8d2b
-- name: 🇺🇸US_13|4.4MB/s
-  port: 9002
-  server: 138.199.35.218
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-- name: 🇺🇸US_14|4.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.208
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_15|3.7MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.203
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: ''
-- name: 🇺🇸US_16|3.3MB/s
-  password: ''
-  port: 9002
-  server: 138.199.35.201
-  skip-cert-verify: true
-  tls: true
-  type: http
-  udp: true
-  username: ''
-- name: 🇺🇸US_17|4.8MB/s
-  password: None
-  port: 9002
-  server: 138.199.35.210
-  skip-cert-verify: true
+  server: berniesbodybla.fun
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_18|4.3MB/s
+- name: 🇺🇸US_7|1.2MB/s
   password: None
-  port: 9002
-  server: 138.199.35.196
-  skip-cert-verify: true
+  port: 443
+  server: kimberlymilano.icu
+  skip-cert-verify: false
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_19|4.2MB/s
-  port: 9002
-  server: 138.199.35.206
-  skip-cert-verify: true
+- name: 🇺🇸US_8|1.2MB/s
+  password: 'null'
+  port: 443
+  server: kimberlymilano.icu
   tls: true
   type: http
-  udp: true
-- name: 🇺🇸US_20|2.9MB/s
+  username: 'null'
+- name: 🇺🇸US_9|1.8MB/s
+  port: 443
+  server: webdrone.club
+  sni: webdrone.club
+  tls: true
+  type: http
+- name: 🇺🇸US_10|2.8MB/s
   password: 0720c874-35e8-11ef-aa88-f23c913c8d2b
   port: 8443
   server: 422fc6a4-tk59c0-tll9n7-1l0qa.isp.cdnkuaishou.com
@@ -238,89 +146,36 @@ proxies:
   tls: true
   type: http
   username: 0720c874-35e8-11ef-aa88-f23c913c8d2b
-- name: 🇺🇸US_21|4.1MB/s
+- name: 🇺🇸US_11|3.1MB/s
+  password: 39275498-a48c-11ee-b03a-f23c913c8d2b
+  port: 8443
+  server: dacb426e-tk59c0-tl2lpx-1ofy2.isp.cdnkuaishou.com
+  sni: dacb426e-tk59c0-tl2lpx-1ofy2.isp.cdnkuaishou.com
+  tls: true
+  type: http
+  username: 39275498-a48c-11ee-b03a-f23c913c8d2b
+- name: 🇺🇸US_12|3.1MB/s
+  password: gf1:gfhysteria2024
   port: 443
-  server: 52.55.81.168
+  server: 66.94.121.46
   skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇺🇸US_22|2.4MB/s
-  port: 8888
-  server: 3.92.31.127
-  type: http
-- name: 🇺🇸US_23|3.1MB/s
-  password: None
-  port: 443
-  server: 52.55.81.168
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_24|3.4MB/s
+  sni: www.broadcom.com
+  type: hysteria2
+  udp: true
+- name: 🇺🇸US_13|1.3MB/s
   network: ws
-  port: '443'
-  server: web-c5266a-610916-production.up.railway.app
-  servername: web-c5266a-610916-production.up.railway.app
-  tls: true
+  port: '8880'
+  server: 166.62.107.2
   type: vless
   udp: true
-  uuid: 0baadb70-df8b-59fa-b0ee-0a756bcffe82
+  uuid: fb5058f5-a9ed-424e-9ed7-33d455438286
   ws-opts:
     headers:
-      Host: web-c5266a-610916-production.up.railway.app
-      User-Agent: Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/69.0.3497.100 Safari/537.36
-    path: /ws/Vip
+      Host: old-violet-a5ce.29-440.workers.dev
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/70.0.3538.67 Safari/537.36
+    path: /pyip=Telegram🇨🇳 @WangCai2
   xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_25|1.3MB/s
-  network: ws
-  port: '443'
-  server: 43.161.254.71
-  servername: cf.udpid.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: 7893b302-3882-4c38-9ab6-6313f1575d1a
-  ws-opts:
-    headers:
-      Host: cf.udpid.org
-      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/41.0.2272.76 Safari/537.36
-    path: /@zyzzzoao
-  xudp: true
-- alpn:
-  - http/1.1
-  client-fingerprint: chrome
-  name: 🇺🇸US_26|2.1MB/s
-  network: ws
-  port: '443'
-  server: 146.75.29.242
-  servername: bounded-crammed.video-streams.org
-  tls: true
-  type: vless
-  udp: true
-  uuid: b973d146-31db-4ec4-8d62-c034598d4d79
-  ws-opts:
-    headers:
-      Host: bounded-crammed.video-streams.org
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/62.0.3202.94 Safari/537.36
-    path: /ws
-  xudp: true
-- name: 🇺🇸US_27|2.2MB/s
-  password: 'null'
-  port: '9002'
-  server: 138.199.35.206
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130
@@ -448,13 +303,6 @@ proxies:
   type: vless
   udp: true
   uuid: 9638a83e-f1f7-4cc8-a602-924965d9534f
-- name: US_speednode_0140
-  password: None
-  port: 443
-  server: purposebydesig.club
-  tls: true
-  type: http
-  udp: true
 - name: US_speednode_0141
   port: 443
   server: 38.28.193.188
