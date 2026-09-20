@@ -196,53 +196,73 @@ proxies:
   tls: false
   type: vmess
   uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1.9MB/s
-  password: a1-hsiyxkoJ_4Zsszu66wA
-  port: '2060'
-  server: p1tun2.greewebservices.ir
-  type: ss
-  udp: true
 - client-fingerprint: chrome
-  name: 🇫🇷FR_1|1.4MB/s
+  name: ❓Other_1|2.5MB/s
   network: ws
   password: humanity
   port: '443'
-  server: 172.67.221.242
+  server: 165.215.250.14
   skip-cert-verify: false
   sni: www.ignitelimit.com
   type: trojan
   udp: true
   ws-opts:
     headers:
-      User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/54.0.2840.99 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/49.0.2623.87 Safari/537.36
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_1|1.7MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.17.111.3
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US) AppleWebKit/533.4
+        (KHTML, like Gecko) Chrome/5.0.375.99 Safari/533.4
+    path: /assignment
+- client-fingerprint: chrome
+  name: 🇫🇷FR_2|1.0MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 104.21.8.107
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/48.0.2564.109 Safari/537.36
+    path: /assignment
+- alpn:
+  - h2
+  - http/1.1
+  client-fingerprint: chrome
+  name: 🇫🇷FR_3|1.1MB/s
+  network: ws
+  password: humanity
+  port: '443'
+  server: 188.114.97.6
+  skip-cert-verify: false
+  sni: www.ignitelimit.com
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
+        Gecko) Chrome/52.0.2743.116 Safari/537.36
     path: /assignment
 - cipher: aes-256-cfb
-  name: 🇫🇷FR_2|2.7MB/s
-  password: amazonskr05
-  port: '443'
-  server: 13.36.169.164
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_5|4.2MB/s
+  name: 🇺🇸US_3|1.9MB/s
   password: amazonskr05
   port: 443
-  server: 63.181.79.8
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_5|4.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 15.237.180.114
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_27|4.2MB/s
-  password: amazonskr05
-  port: '443'
-  server: 3.145.36.155
+  server: 3.21.98.132
   type: ss
   udp: true

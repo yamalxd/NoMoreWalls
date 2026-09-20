@@ -63,84 +63,9 @@ proxies:
   sni: mirage.ehsanazizi-speed-server.com
   tls: false
   type: hysteria2
-- cipher: chacha20-ietf-poly1305
-  name: 🇩🇪DE_1|1.9MB/s
-  password: a1-hsiyxkoJ_4Zsszu66wA
-  port: '2060'
-  server: p1tun2.greewebservices.ir
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: z_Rn0Vvq1GB39RhN6v7DhdtD-kS0XZa_je0h-no_hWs
-    short-id: '!!str 59eee550a1014198'
-  server: de10.delivery-4f1c.com
-  servername: de10.delivery-4f1c.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_3|2.9MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: '!!str 9d84de9d9f7b85e9'
-  server: de5.edge-9d7c.com
-  servername: de5.edge-9d7c.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|3.6MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: qoAuuFJ0eK1lAMHIqTt6LniY6qu1GIobrGthBcRHUXM
-    short-id: '!!str 9d84de9d9f7b85e9'
-  server: de3.edge-9d7c.com
-  servername: de3.edge-9d7c.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: ddf09ad0-02dc-485b-9048-1038de5bebf0
-  xudp: true
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_5|4.2MB/s
-  password: amazonskr05
+- name: 🇩🇪DE_2|2.2MB/s
   port: 443
-  server: 63.181.79.8
-  type: ss
-  udp: true
-- name: 🇩🇪DE_6|1.0MB/s
-  password: None
-  port: 443
-  server: 138.201.56.241
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-  username: null
-- name: 🇩🇪DE_7|1.1MB/s
-  password: None
-  port: 11111
-  server: 103.237.102.191
-  type: http
-  username: null
-- name: 🇩🇪DE_8|3.4MB/s
-  port: 1080
-  server: 135.125.232.151
-  skip-cert-verify: false
-  type: socks5
