@@ -1,33 +1,38 @@
 proxies:
-- client-fingerprint: chrome
+- name: 'A - 🇨🇦 CA 01 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 50.62.195.50
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime38.workers.dev
+    path: /?ed=2560
+- client-fingerprint: random
   encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_1|1.3MB/s
-  network: tcp
-  port: '50181'
-  reality-opts:
-    public-key: JVeVJbl4s1xB7afO1BpIvCsgULTmY3b__2wMxQQmW0s
-    short-id: '!!str ae5e3d8a99373629'
-  server: 172.105.17.84
-  servername: www.cloudflare.com
+  name: 'B - 🇨🇦 CA 02 TG: @nodpai'
+  network: ws
+  port: 443
+  security: tls
+  server: shopify.com
+  servername: misaka.cndyw.ggff.net
   tls: true
   type: vless
-  udp: true
-  uuid: 24f17960-8b89-48fa-828f-edd2c048ed26
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇨🇦CA_2|1.5MB/s
-  network: tcp
-  port: '27204'
-  reality-opts:
-    public-key: tDCQIafB0NQjbKoef_8CU4rr_afYJUOKjY8KX4cIJj8
-    short-id: '!!str 4c1d'
-  server: 172.105.20.134
-  servername: www.cloudflare.com
+  uuid: 04c808e2-0b59-47b0-a54b-32fc7ef1c902
+  ws-opts:
+    headers:
+      Host: misaka.cndyw.ggff.net
+    path: /?ed=2560
+- name: 🇨🇦CA_1|1.5MB/s
+  port: 443
+  server: 206.223.183.13
+  skip-cert-verify: true
   tls: true
-  type: vless
-  udp: true
-  uuid: 24f17960-8b89-48fa-828f-edd2c048ed26
-  xudp: true
+  type: http
+- name: 🇨🇦CA_2|2.1MB/s
+  port: 9443
+  server: 198.44.157.27
+  skip-cert-verify: true
+  tls: true
+  type: http
