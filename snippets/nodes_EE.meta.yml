@@ -1,1 +1,37 @@
-proxies: []
+proxies:
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇪🇪EE_1|1.7MB/s
+  network: xhttp
+  port: '25395'
+  reality-opts:
+    public-key: NPeupAuDrIhrFEXxPXUnsmuT0zSOkSQByegy5DPJQhU
+    short-id: '!!str b4'
+  server: 143.246.41.6
+  servername: amd.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: 900e2cca-4798-47f6-b972-5288a77c8093
+  xhttp-opts:
+    path: /
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: safari
+  encryption: none
+  name: 🇪🇪EE_2|3.2MB/s
+  network: xhttp
+  port: '443'
+  server: 165.231.170.34
+  servername: cab-6aba08bf.ferrin.uk
+  tls: true
+  type: vless
+  udp: true
+  uuid: 8b1fca23-94f3-498d-b161-c99828ccc8f1
+  xhttp-opts:
+    mode: stream-one
+    path: /
+    reuse-settings:
+      max-connections: '1'
+  xudp: true

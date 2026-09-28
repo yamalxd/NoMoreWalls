@@ -1,21 +1,29 @@
 proxies:
-- name: 🇫🇷183069 | ⚡️Telegram = t.me/S...
-  password: 2561c6b1a3069d3170b4d7e1ecc08c65
+- name: 🇫🇷FR_1|5.5MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 30099
+  server: ip5.934618.xyz
+  sni: ip5.934618.xyz
+  type: anytls
+  udp: true
+- name: 🇫🇷FR_2|4.3MB/s
   port: 443
-  server: paris.nerabotaet.com
+  server: 82.64.255.151
   skip-cert-verify: true
-  sni: paris.nerabotaet.com
-  tls: false
-  type: hysteria2
-- down: ''
-  fingerprint: ''
-  name: 🇫🇷FR_1|3.6MB/s
-  obfs: ''
-  obfs-password: ''
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  port: '443'
-  server: vpn-fr-002.fastervpn.world
+  tls: true
+  type: http
+- down: null
+  name: 🇫🇷FR_3|3.1MB/s
+  password: github.com/Alvin9999-newpac/fanqiang
+  port: 60111
+  server: 62.210.7.139
   skip-cert-verify: true
-  sni: 127.0.0.1
+  sni: bing.com
   type: hysteria2
-  up: ''
+  up: null
+- name: 🇫🇷FR_4|3.6MB/s
+  port: 443
+  server: 82.66.235.221
+  skip-cert-verify: true
+  tls: true
+  type: http
