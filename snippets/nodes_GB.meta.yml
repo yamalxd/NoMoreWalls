@@ -1,37 +1,31 @@
 proxies:
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇬🇧GB_1|3.1MB/s
-  network: ws
-  port: '2053'
-  server: land.zavqeron.ir
-  servername: zavqeron.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 49b65d3a-b53e-45d0-b71e-f295146849c8
-  ws-opts:
-    headers:
-      Host: land.zavqeron.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/52.0.2743.116 Safari/537.36
-    path: /uk-cdn
-  xudp: true
-- name: 🇬🇧GB_2|3.7MB/s
+- name: 🇬🇧GB_1|1.1MB/s
   password: None
-  port: 9443
-  server: 37.120.233.34
+  port: 443
+  server: 185.235.0.66
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇬🇧GB_3|2.3MB/s
-  port: 443
-  server: 37.120.233.18
+- name: 🇬🇧GB_2|2.5MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: yg.mangshe.xyz
   skip-cert-verify: true
+  sni: yg.mangshe.xyz
+  type: hysteria2
+- client-fingerprint: firefox
+  flow: xtls-rprx-vision
+  name: 🇬🇧GB_3|2.4MB/s
+  network: tcp
+  port: '443'
+  reality-opts:
+    public-key: fNfokzklCF4l_c8k8PciOCjm5ecNoF_sNLjEtaO-xzI
+    short-id: '!!str db04ce8bdb8900f1'
+  server: 31.76.39.230
+  servername: nvidia.com
   tls: true
-  type: http
+  type: vless
+  udp: true
+  uuid: adc11f30-e4cb-4985-bf5e-f9ded69c019f
+  xudp: true
