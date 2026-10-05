@@ -1,4 +1,76 @@
 proxies:
+- encryption: none
+  name: 'A - 🇩🇪 DE 01 TG: @nodpai'
+  network: tcp
+  port: 10443
+  server: 136.244.94.171
+  type: vless
+  uuid: a01e27df-a1f1-4b7f-a65b-50dd4b6ac10a
+- encryption: none
+  name: 'A - 🇩🇪 DE 02 TG: @nodpai'
+  network: tcp
+  port: 443
+  server: 136.244.94.171
+  type: vless
+  uuid: 52516534-4986-4959-b30b-a89463eed9af
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 04 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- client-fingerprint: chrome
+  encryption: none
+  grpc-opts:
+    grpc-service-name: GrpcFuckRKN
+  name: 'A - 🇩🇪 DE 05 TG: @nodpai'
+  network: grpc
+  port: 443
+  reality-opts:
+    public-key: cjCwI7alv-GUgef0TW7i-S7jNgnIoZ6aooGYH7Nopxs
+    short-id: '!!str deadbeef'
+  security: reality
+  server: 194.58.41.65-uhe66vr6.nike77prime.ru
+  servername: www.microsoft.com
+  tls: true
+  type: vless
+  uuid: afc941a0-b6b4-42d1-b284-d59a42f083fd
+- name: 'A - 🇩🇪 DE 06 TG: @nodpai'
+  network: ws
+  port: 8880
+  server: 45.80.111.30
+  type: vless
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  ws-opts:
+    headers:
+      Host: vms.lifetime52.workers.dev
+    path: /
+- client-fingerprint: chrome
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 'B - 🇩🇪 DE 07 TG: @nodpai'
+  network: tcp
+  port: 443
+  reality-opts:
+    public-key: C1hW1bTA9WOacIK-fHHg-HLkDZ3FY7FhEhAyldMSUEA
+    short-id: '!!str a1b2c3d4e5f6'
+  security: reality
+  server: 84.21.189.197
+  servername: queuev4.vk.com
+  tls: true
+  type: vless
+  uuid: 3ea2d8f2-12c1-4189-8cc5-91d0ee9f5ca0
 - name: '@KAFING_2'
   obfs: salamander
   obfs-password: '@JavidnamanIran-Javid-SHAH-KingRezaPahlavi'
@@ -19,77 +91,68 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  name: 🇩🇪DE_1|2.0MB/s
-  network: ws
-  port: 443
-  server: 172.67.76.40
-  servername: ccc.010304.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: d342d11e-d224-4463-b982-532309285094
-  ws-opts:
+- name: 🇩🇪187621 | ⚡️Telegram = t.me/S...
+  obfs: salamander
+  obfs-password: 6ccfcef2e116b03ce9047333
+  password: migrated-d730e46f5c1b
+  port: 5443
+  server: fastly.vexogf.ir
+  skip-cert-verify: false
+  sni: tun-a-1.bexait.ir
+  tls: false
+  type: hysteria2
+- name: 🛠️15@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.104
+  skip-cert-verify: true
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- name: 🛠️13@oneclickvpnkeys
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  port: 8443
+  server: 77.74.123.105
+  sni: grape-test-italy.dynuddns.net
+  tls: false
+  type: hysteria2
+- encryption: none
+  http-opts:
     headers:
-      Host: ccc.010304.xyz
-    path: /
-- client-fingerprint: safari
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_2|3.2MB/s
-  network: tcp
-  port: 443
-  reality-opts:
-    public-key: -YpJ_Xav7sUkd77sEZjg58Pn6dnNpj5himuUS-OFDh4
-    short-id: '!!str fd44fcf1c3afa0af'
-  server: 2.27.211.129
-  servername: www.icloud.com
-  tls: true
+      Host:
+      - speedtest.net
+    path:
+    - /
+  name: 🇩🇪DE_1|2.9MB/s
+  network: http
+  port: '2052'
+  server: k4direct.lynch.ir
   type: vless
   udp: true
-  uuid: 0afdcc75-e449-418d-8eac-c5b657363443
-- client-fingerprint: chrome
-  name: 🇩🇪DE_3|1.8MB/s
-  network: ws
-  port: '8443'
-  server: shop.neexbyte.ir
-  tls: true
-  type: vless
-  udp: true
-  uuid: 8bb52771-052e-40b5-ab53-c6e151ad2290
-  ws-opts:
-    headers:
-      Host: shop.neexbyte.ir
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
-        like Gecko) Chrome/66.0.3359.139 Safari/537.36
-    path: /
+  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
   xudp: true
-- alpn:
-  - h2
-  grpc-opts:
-    grpc-service-name: ajv
-  name: 🇩🇪DE_4|1.9MB/s
-  network: grpc
-  password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo
-  port: 443
-  server: 31.77.168.21
-  skip-cert-verify: true
-  sni: d3-de2.cloud-cdn.xyz
-  type: trojan
-  udp: true
-- name: 🇩🇪DE_5|2.8MB/s
-  password: None
-  port: 443
-  server: 149.36.50.1
-  skip-cert-verify: true
-  tls: true
-  type: http
-  username: null
-- client-fingerprint: firefox
+- client-fingerprint: safari
   encryption: none
-  name: 🇩🇪DE_6|1.8MB/s
+  name: 🇩🇪DE_2|1.3MB/s
   network: xhttp
   port: '443'
-  server: 50.7.29.181
+  server: 31.56.189.89
+  servername: de3s.beautysalon1122.online
+  tls: true
+  type: vless
+  udp: true
+  uuid: 372c587c-ca5f-467e-aaf2-07e0fd0ab7bf
+  xhttp-opts:
+    host: de3s.beautysalon1122.online
+    mode: auto
+    path: /standart/
+  xudp: true
+- client-fingerprint: firefox
+  encryption: none
+  name: 🇩🇪DE_3|1.1MB/s
+  network: xhttp
+  port: '443'
+  server: 50.7.28.210
   servername: id-24f9d11d.ferrin.uk
   tls: true
   type: vless
@@ -99,4 +162,39 @@ proxies:
     host: de.vmagnum.win
     reuse-settings:
       max-connections: '1'
+  xudp: true
+- alpn:
+  - h2
+  client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_4|1.5MB/s
+  network: ws
+  port: '32989'
+  server: dl2.armanstore22.ir
+  servername: dl2.armanstore22.ir
+  tls: true
+  type: vless
+  udp: true
+  uuid: 63ad98c8-f8c2-d771-336d-12bc5906aee2
+  ws-opts:
+    headers:
+      Host: ''
+      User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/70.0.3538.110 Safari/537.36
+    path: /?ed=2048
+  xudp: true
+- client-fingerprint: chrome
+  encryption: none
+  name: 🇩🇪DE_5|1.7MB/s
+  network: tcp
+  port: '4040'
+  reality-opts:
+    public-key: _OmNcv89o5SDt4H3ButRX9UynGIVwNZR250w4Zie-yk
+    short-id: '!!str 73693dea6faae051'
+  server: lv1d.lynch.ir
+  servername: www.actionvfx.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: d7e99010-e7c3-4978-9d30-2e63882dcfbe
   xudp: true
