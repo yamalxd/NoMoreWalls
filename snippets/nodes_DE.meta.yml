@@ -27,77 +27,13 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪DE_1|2.5MB/s
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  port: 8443
-  server: 162.249.126.37
-  skip-cert-verify: true
-  sni: hop-germany-september.dynuddns.com
-  type: hysteria2
-- encryption: mlkem768x25519plus.native.0rtt.bq1M9Mo7StSetydCuYnVBzGMeKNBRamRZfzcZEiulEY
-  http-opts:
-    headers:
-      Host:
-      - testspeed-foreign.tci.ir
-    path:
-    - /@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs---@TurboConfigs--@TurboConfigs---@TurboConfigs---@TurboConfigs---
-  name: 🇩🇪DE_2|3.2MB/s
-  network: http
-  port: '7070'
-  server: 91.107.240.245
-  type: vless
-  udp: true
-  uuid: 9804f109-f750-4dec-9c3a-091982320501
-  xudp: true
-- name: 🇩🇪DE_3|3.5MB/s
-  port: 443
-  server: 87.249.132.97
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: randomized
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_4|2.3MB/s
-  port: 443
-  reality-opts:
-    public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08
-    short-id: '!!str 4be4110078ebed4a'
-  server: de2.srv.vbuste.ru
-  servername: de2.srv.vbuste.ru
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386
-- client-fingerprint: chrome
-  name: 🇩🇪DE_5|2.4MB/s
-  network: ws
-  port: 2083
-  server: 172.67.69.86
-  servername: helloapps.cc.cd
-  skip-cert-verify: true
-  tls: true
-  type: vless
-  udp: true
-  uuid: a21b9103-1693-49c1-8dc9-e8e8098ee969
-  ws-opts:
-    headers:
-      Host: helloapps.cc.cd
-    path: /
-- name: 🇩🇪DE_6|1.9MB/s
-  port: 443
-  server: 149.36.50.129
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_7|3.4MB/s
+- name: 🇩🇪DE_1|1.4MB/s
   port: 443
   server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_8|2.7MB/s
+- name: 🇩🇪DE_2|1.8MB/s
   password: None
   port: 443
   server: 149.36.50.1
@@ -105,25 +41,10 @@ proxies:
   tls: true
   type: http
   username: null
-- name: 🇩🇪DE_9|3.0MB/s
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_3|2.2MB/s
+  password: amazonskr05
   port: 443
-  server: 159.69.94.125
-  skip-cert-verify: true
-  tls: true
-  type: http
-- client-fingerprint: chrome
-  encryption: none
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_10|3.3MB/s
-  network: tcp
-  port: '443'
-  reality-opts:
-    public-key: r5WB5FnSCt4eeBC1FJMfkWHbzsMuabo0Rc6wuAhlZUs
-    short-id: '!!str a8'
-  server: 189.74.106.86
-  servername: api.setevoyprostor.cc
-  tls: true
-  type: vless
+  server: 63.177.230.112
+  type: ss
   udp: true
-  uuid: b0eed7cb-72e2-4bf5-8668-b803deb5dd47
-  xudp: true
