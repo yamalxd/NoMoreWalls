@@ -52,10 +52,11 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- name: 🇯🇵JP_1|1.1MB/s
-  password: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
-  port: 443
-  server: d8359bdc-tdsv40-tf8z9r-1pr35.jp4.oshuawei.com
-  tls: true
-  type: http
-  username: 6b7c1278-ff9d-11ee-84ca-f23c913c8d2b
+- auth: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  name: 🇯🇵JP_1|1.4MB/s
+  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
+  port: 2060
+  server: rb.mangshe.xyz
+  skip-cert-verify: true
+  sni: 127.0.0.1
+  type: hysteria2
