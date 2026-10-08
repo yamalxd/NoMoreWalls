@@ -19,44 +19,71 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
+- name: 🇩🇪190017 | ⚡️Telegram = t.me/S...
+  password: cc4074d6-f450-4025-833a-a6e0100ceaff
+  port: 443
+  server: 45.88.12.155
+  skip-cert-verify: false
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
 - auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  name: 🇩🇪DE_1|2.1MB/s
+  name: 🇩🇪DE_1|2.7MB/s
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   port: 8443
   server: 162.249.126.39
   skip-cert-verify: true
   sni: hop-germany-september.dynuddns.com
   type: hysteria2
-- alpn:
-  - h2
-  client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_2|2.8MB/s
-  network: xhttp
-  port: '2096'
-  server: 45.131.7.105
-  servername: web.studioatlaiouaetopten.info
-  tls: true
-  type: vless
+- cipher: aes-256-cfb
+  name: 🇩🇪DE_2|3.6MB/s
+  password: amazonskr05
+  port: '443'
+  server: 3.67.197.81
+  type: ss
   udp: true
-  uuid: 801c09fd-0d14-4dc1-86a0-db4bff5f72bc
-  xhttp-opts:
-    host: web.studioatlaiouaetopten.info
-    mode: auto
-    path: /cdn/v1/media
-    x-padding-bytes: 100-1000
-  xudp: true
-- name: 🇩🇪DE_3|1.1MB/s
+- name: 🇩🇪DE_3|3.3MB/s
   port: 443
-  server: 149.36.50.129
+  server: 172.64.68.89
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_4|1.6MB/s
+- name: 🇩🇪DE_4|1.4MB/s
   password: None
   port: 443
   server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
+- name: 🇩🇪DE_5|1.9MB/s
+  port: 443
+  server: 87.249.132.97
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_6|3.2MB/s
+  port: 9002
+  server: 158.173.154.4
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_7|1.9MB/s
+  port: 443
+  server: 149.36.50.129
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇩🇪DE_8|1.9MB/s
+  password: None
+  port: 443
+  server: 149.36.50.157
+  skip-cert-verify: true
+  tls: true
+  type: http
   username: null
+- name: 🇩🇪DE_9|2.7MB/s
+  port: 9443
+  server: 213.177.229.161
+  skip-cert-verify: true
+  tls: true
+  type: http

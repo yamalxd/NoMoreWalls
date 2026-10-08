@@ -9,9 +9,25 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|2.9MB/s
-  port: 8443
-  server: 87.242.85.187
+- name: 🇷🇺189942 | ⚡️Telegram = t.me/S...
+  password: Hd7N0TU7Ow5ZqaIx
+  port: 25172
+  server: us5.h1cloud.net
+  skip-cert-verify: true
+  sni: us5.h1cloud.net
+  tls: false
+  type: hysteria2
+- name: 🇷🇺190020 | ⚡️Telegram = t.me/S...
+  password: cc4074d6-f450-4025-833a-a6e0100ceaff
+  port: 443
+  server: 138.124.254.233
+  skip-cert-verify: false
+  sni: crt.molniya.sbs
+  tls: false
+  type: hysteria2
+- name: 🇷🇺RU_1|2.0MB/s
+  port: 1446
+  server: 46.29.166.134
   skip-cert-verify: true
   tls: true
   type: http

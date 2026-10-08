@@ -7,6 +7,14 @@ proxies:
   sni: vk.com
   tls: false
   type: hysteria2
+- name: 🇺🇸189951 | ⚡️Telegram = t.me/S...
+  password: dongtaiwang.com
+  port: 44356
+  server: hy2.561891.xyz
+  skip-cert-verify: false
+  sni: hy2.561891.xyz
+  tls: false
+  type: hysteria2
 - alterId: 0
   cipher: auto
   name: 🇺🇸 美国|@ripaojiedian
@@ -53,106 +61,112 @@ proxies:
   skip-cert-verify: true
   sni: m.ctrip.com
   type: trojan
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_1|2.9MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: "(Telegramð\x9F\x87¨ð\x9F\x87³ @WangCai2)f6e348d:70852"
-    mode: tls
-  port: 2377
-  server: 88.210.36.106
-  type: ss
-  udp: true
-- alpn:
-  - ''
-  alterId: '0'
-  cipher: auto
-  name: 🇺🇸US_2|1.5MB/s
-  network: ws
-  port: '443'
-  server: 173.249.198.111
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 88888888-8888-8888-8888-888888888888
-  ws-opts:
-    headers: {}
-    path: /tel=@user_xexevil
-  xudp: true
-- name: 🇺🇸US_3|1.9MB/s
+- name: 🇺🇸US_1|1.4MB/s
   port: 443
   server: 167.88.60.242
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_4|1.0MB/s
+- name: 🇺🇸US_2|1.3MB/s
+  port: 9443
+  server: 38.95.111.226
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+- name: 🇺🇸US_3|2.1MB/s
   port: 443
   server: 12.221.146.147
   skip-cert-verify: true
   tls: true
   type: http
-- name: US_speednode_0131
-  password: 'null'
-  port: 9002
-  server: 138.199.35.216
+- name: 🇺🇸US_4|1.7MB/s
+  password: None
+  port: 443
+  server: jewelscollecti.icu
   skip-cert-verify: true
   tls: true
   type: http
-  udp: true
-  username: 'null'
-- name: 🇺🇸US_6|1.1MB/s
+- name: 🇺🇸US_5|4.7MB/s
   password: None
   port: 9002
-  server: 138.199.35.218
+  server: 138.199.35.201
   skip-cert-verify: true
   tls: true
   type: http
   username: null
-- name: 🇺🇸US_7|3.4MB/s
-  port: 443
-  server: 148.135.10.80
+- name: 🇺🇸US_6|3.8MB/s
+  password: 'null'
+  port: 9002
+  server: 138.199.35.217
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_8|1012KB/s
+  username: 'null'
+- name: 🇺🇸US_7|4.3MB/s
+  password: ''
+  port: 9002
+  server: 138.199.35.203
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: ''
+- name: 🇺🇸US_8|1.1MB/s
+  port: 1080
+  server: 83.147.217.103
+  type: socks5
+- name: 🇺🇸US_9|1.4MB/s
+  port: 443
+  server: 12.202.180.10
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_10|2.6MB/s
   port: 9443
   server: 149.88.21.140
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇺🇸US_9|1.2MB/s
+- name: 🇺🇸US_11|2.7MB/s
+  port: 443
+  server: 148.135.10.80
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_12|2.8MB/s
+  port: 443
+  server: 192.227.176.234
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_13|1.2MB/s
+  port: 443
+  server: 68.235.56.51
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇺🇸US_14|1.1MB/s|K001-260618
+  password: ''
   port: 443
   server: 149.34.248.65
   skip-cert-verify: true
-  sni: 149.34.248.65
+  sub_tag: K001-260618
   tls: true
   type: http
-- cipher: chacha20-ietf-poly1305
-  name: 🇺🇸US_10|2.3MB/s
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: feb7fa9:154948
-    mode: tls
-  port: 2377
-  server: 88.210.36.107
-  type: ss
   udp: true
-- cipher: aes-256-cfb
-  name: 🇺🇸US_11|1.1MB/s
-  password: amazonskr05
-  port: '443'
-  server: 18.208.223.39
-  type: ss
-  udp: true
-- client-fingerprint: chrome
+  username: ''
+- name: 🇺🇸US_15|1.3MB/s
+  port: 443
+  server: 68.235.56.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- client-fingerprint: firefox
   encryption: none
-  name: 🇺🇸US_12|2.5MB/s
+  name: 🇺🇸US_16|1022KB/s
   network: ws
   port: '443'
-  server: 104.17.144.249
+  server: 181.36.229.212
   servername: x.m-90.xyz
   tls: true
   type: vless
@@ -161,16 +175,31 @@ proxies:
   ws-opts:
     headers:
       Host: x.m-90.xyz
-      User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like
-        Gecko) Chrome/51.0.2704.103 Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/534.3
+        (KHTML, like Gecko) Chrome/6.0.472.63 Safari/534.3
     path: t.me/TEAMNETGRATISCOL
   xudp: true
+- name: 🇺🇸US_17|3.2MB/s
+  password: ''
+  port: '8885'
+  server: 38.79.114.43
+  skip-cert-verify: true
+  type: socks5
+  username: ''
+- name: 🇺🇸US_18|1.1MB/s
+  password: 'null'
+  port: '9002'
+  server: 138.199.35.205
+  skip-cert-verify: true
+  tls: true
+  type: http
+  username: 'null'
 - client-fingerprint: chrome
   encryption: none
-  name: 🇺🇸US_13|3.4MB/s
+  name: 🇺🇸US_19|1.7MB/s
   network: ws
   port: '443'
-  server: 172.64.229.14
+  server: 172.66.1.43
   servername: x.m-90.xyz
   tls: true
   type: vless
@@ -179,27 +208,8 @@ proxies:
   ws-opts:
     headers:
       Host: x.m-90.xyz
-      User-Agent: Mozilla/5.0 (X11; U; Linux x86_64; en-US) AppleWebKit/533.2 (KHTML,
-        like Gecko) Chrome/5.0.342.1 Safari/533.2
-    path: t.me/TEAMNETGRATISCOL
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇺🇸US_14|2.7MB/s
-  network: ws
-  port: '443'
-  server: 172.66.0.18
-  servername: x.m-90.xyz
-  tls: true
-  type: vless
-  udp: true
-  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
-  ws-opts:
-    headers:
-      Host: x.m-90.xyz
-      User-Agent: Mozilla/5.0 (Linux; Android 7.1.2; Redmi Note 5A Build/N2G47H; wv)
-        AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/63.0.3239.111 Mobile
-        Safari/537.36
+      User-Agent: Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML,
+        like Gecko) Chrome/65.0.3325.181 Safari/537.36
     path: t.me/TEAMNETGRATISCOL
   xudp: true
 - client-fingerprint: chrome
@@ -217,6 +227,15 @@ proxies:
   type: vless
   udp: true
   uuid: 5905d91f-c3bc-4e80-bd66-4b17beb166cb
+- name: US_speednode_0131
+  password: 'null'
+  port: 9002
+  server: 138.199.35.216
+  skip-cert-verify: true
+  tls: true
+  type: http
+  udp: true
+  username: 'null'
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0132
