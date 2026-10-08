@@ -9,7 +9,7 @@ proxies:
   sni: giftcard.gisora.ir
   tls: false
   type: hysteria2
-- name: 🇷🇺RU_1|1.8MB/s
+- name: 🇷🇺RU_1|2.9MB/s
   port: 8443
   server: 87.242.85.187
   skip-cert-verify: true

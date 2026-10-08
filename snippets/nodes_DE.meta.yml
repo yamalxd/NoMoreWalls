@@ -9,19 +9,6 @@ proxies:
   sni: api.kermanshahi.org
   tls: false
   type: hysteria2
-- alpn:
-  - h3
-  - h2
-  - http/1.1
-  name: 🇩🇪189465 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: 1vwbgf5t1k61nxmi
-  password: 8d1729b01c1ad743179ed4558c8404b0
-  port: 8397
-  server: 193.42.11.245
-  sni: 193.42.11.245
-  tls: false
-  type: hysteria2
 - name: Telegram 🆔@cnetvpn 🇩🇪
   obfs: salamander
   obfs-password: 6cmj1dymhm79hopl
@@ -32,111 +19,44 @@ proxies:
   sni: gift-catalog.aroonia.ir
   tls: false
   type: hysteria2
-- client-fingerprint: chrome
-  encryption: mlkem768x25519plus.native.0rtt.Obr5RkpXcciyoYhSOWoBu-rPy23XTh96VbZGM95Lpic
-  flow: xtls-rprx-vision
-  name: 🇩🇪DE_1|2.3MB/s
-  network: tcp
-  port: 59719
-  reality-opts:
-    public-key: cWI4RpOZJqkX1HE9pQIZQ8eNeLWGX8UEzECyRehQnlQ
-    short-id: '!!str 6e6f9fa5decc02'
-  server: 189.24.108.152
-  servername: www.sony.lu
-  tls: true
-  type: vless
-  udp: true
-  uuid: cd55b3ae-6833-4eff-be18-55bd92164071
-- cipher: aes-256-cfb
-  name: 🇩🇪DE_2|3.6MB/s
-  password: amazonskr05
-  port: 443
-  server: 63.177.230.112
-  type: ss
-  udp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_3|4.2MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: fn3.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2496047d-ba1e-49b4-9c04-4dc1a7f63313
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_4|4.0MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: de23.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2496047d-ba1e-49b4-9c04-4dc1a7f63313
-  xudp: true
-- client-fingerprint: chrome
-  encryption: none
-  name: 🇩🇪DE_5|3.5MB/s
-  network: tcp
-  port: '2434'
-  reality-opts:
-    public-key: yzCvRpbQ-cRePaJAuQkw42_xEf-R860gFsQwoPki2E0
-    short-id: '!!str 9de041877612a718'
-  server: de20.bexait.ir
-  servername: icloud.com
-  tls: true
-  type: vless
-  udp: true
-  uuid: 2496047d-ba1e-49b4-9c04-4dc1a7f63313
-  xudp: true
+- auth: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  name: 🇩🇪DE_1|2.1MB/s
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  port: 8443
+  server: 162.249.126.39
+  skip-cert-verify: true
+  sni: hop-germany-september.dynuddns.com
+  type: hysteria2
 - alpn:
   - h2
-  - http/1.1
   client-fingerprint: chrome
   encryption: none
-  name: 🇩🇪DE_6|1.1MB/s
+  name: 🇩🇪DE_2|2.8MB/s
   network: xhttp
-  port: '443'
-  server: fzjo.fbbv.electrocitymarket.ru
-  servername: fzjo.fbbv.electrocitymarket.ru
+  port: '2096'
+  server: 45.131.7.105
+  servername: web.studioatlaiouaetopten.info
   tls: true
   type: vless
   udp: true
-  uuid: d2519b5e-495e-462e-9703-bbf68011d2f3
+  uuid: 801c09fd-0d14-4dc1-86a0-db4bff5f72bc
   xhttp-opts:
-    mode: stream-up
+    host: web.studioatlaiouaetopten.info
+    mode: auto
+    path: /cdn/v1/media
+    x-padding-bytes: 100-1000
   xudp: true
-- name: 🇩🇪DE_7|2.4MB/s
+- name: 🇩🇪DE_3|1.1MB/s
   port: 443
-  server: 87.249.132.97
+  server: 149.36.50.129
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_8|2.4MB/s
-  port: 9002
-  server: 158.173.154.4
-  skip-cert-verify: true
-  tls: true
-  type: http
-- name: 🇩🇪DE_9|2.6MB/s
+- name: 🇩🇪DE_4|1.6MB/s
+  password: None
   port: 443
-  server: 213.109.163.119
+  server: 149.36.50.1
   skip-cert-verify: true
   tls: true
   type: http
-- name: 🇩🇪DE_10|3.3MB/s
-  port: 443
-  server: 79.76.126.155
-  skip-cert-verify: true
-  tls: true
-  type: http
+  username: null
