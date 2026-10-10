@@ -1,7 +1,1 @@
-proxies:
-- name: 🇫🇷FR_1|3.1MB/s
-  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
-  port: 1012
-  server: k5f00f9s.zf-mix.9999231.xyz
-  sni: fr-house.9999231.xyz
-  type: anytls
+proxies: []
