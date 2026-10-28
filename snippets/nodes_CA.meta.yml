@@ -1,34 +1,11 @@
 proxies:
-- alpn:
-  - http/1.1
-  encryption: none
-  name: '🇨🇦[www.v2nodes.com] vless-CA-1... #6'
-  network: ws
-  port: 443
-  server: 104.21.70.22
-  servername: brightlux.forum
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: efe19c5a-0ea1-4666-8a4c-4a33f4670775
-  ws-opts:
-    headers:
-      Host: brightlux.forum
-    path: /raccoonwsvless
-- encryption: none
-  name: '🇨🇦[www.v2nodes.com] vless-CA-1... #7'
-  network: tcp
+- name: '🇨🇦[www.v2nodes.com] vless-CA-1... #3'
   port: 8080
   server: milo.rubinaz.xyz
+  servername: milo.rubinaz.xyz
   tls: false
   type: vless
   uuid: 6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8
-- cipher: aes-128-gcm
-  name: 🇨🇦[www.v2nodes.com] ss-CA-1588...
-  password: 4efe1af272e7292139b889f6a63ee071
-  port: 18766
-  server: 64.74.163.69
-  type: ss
 - cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1559...
   password: zDNVedRFPQexG9v
@@ -72,32 +49,26 @@ proxies:
   server: 51.79.64.198
   type: ss
 - cipher: aes-256-gcm
-  name: '🇨🇦[www.v2nodes.com] ss-CA-1545... #1'
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 51.79.49.116
-  type: ss
-- cipher: aes-256-gcm
   name: 🇨🇦[www.v2nodes.com] ss-CA-1538...
   password: zDNVedRFPQexG9v
   port: 445
   server: 51.222.12.127
   type: ss
-- name: 🇨🇦CA_1|1.3MB/s
-  port: 443
-  server: 206.223.161.47
+- name: 🇨🇦CA_1|1.2MB/s
+  password: None
+  port: 9443
+  server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http
-- cipher: aes-256-cfb
-  name: '🇨🇦 加拿大 | CAN #1'
-  password: amazonskr05
-  port: 443
-  server: 15.175.213.130
-  type: ss
-- cipher: aes-256-cfb
-  name: '🇨🇦 加拿大 | CAN #2'
-  password: amazonskr05
-  port: 443
-  server: 15.223.182.197
-  type: ss
+- client-fingerprint: chrome
+  name: 🇨🇦CA_2|1.7MB/s
+  network: tcp
+  port: 32355
+  server: ca001.zestapp778.com
+  servername: ca001.zestapp778.com
+  tls: true
+  type: vless
+  udp: true
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  xudp: true
